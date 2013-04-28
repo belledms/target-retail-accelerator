@@ -19,29 +19,27 @@ wes.hayashi@thatsupercompany.com
 patrick.khensovan@thatsupercompany.com
 
 
-(949) 502-0965
+
+(949) 502-0965  
 http://www.thatsupercompany.com
 
 
 
 #Submission Contents
-----------------------
+---
 
 **Written Description**
-
 Please see tina-description.pdf
 
 
 **Visual Examples**
-
 Please see images/
 
 
 **Visual Examples**
-
 Please see video/
 
 
----------
+---
 #Thank You
 
