@@ -28,15 +28,15 @@ http://www.thatsupercompany.com
 #Submission Contents
 ---
 
-####Written Description  
+**Written Description**  
 Please see tina-description.pdf
 
 
-####Visual Examples  
+**Visual Examples**  
 Please see images/
 
 
-####Visual Examples  
+**Video**  
 Please see video/
 
 
