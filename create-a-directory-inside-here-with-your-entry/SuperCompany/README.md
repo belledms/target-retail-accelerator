@@ -1,12 +1,10 @@
-Tina: Your Fast, Fun and Friendly Digital Shopping Assistant
+#Tina: Your Fast, Fun and Friendly Digital Shopping Assistant
 ===
 
 
 
-Team
+#Team
 ----
-
-
 
 ### Andrew Vergara (team leader)
 drew.vergara@thatsupercompany.com
@@ -22,20 +20,16 @@ patrick.khensovan@thatsupercompany.com
 
 
 (949) 502-0965
-
 http://www.thatsupercompany.com
 
 
 
-Submission Contents
+#Submission Contents
 ----------------------
-
-
 
 **Written Description**
 
 Please see tina-description.pdf
-
 
 
 **Visual Examples**
@@ -49,5 +43,5 @@ Please see video/
 
 
 ---------
-Thank You
+#Thank You
 
