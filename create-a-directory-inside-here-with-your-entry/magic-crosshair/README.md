@@ -28,15 +28,15 @@ It's your girlfriend's birthday. Ypu want to surprise her with a gift. You know 
 
 ###Additional Details
 
-The user can view the product details by clicking on the bullseye, where detailed information from the Target product catalog can be optained, such as pricing, review, availability, and the product can be order (placed into a shopping cart), or added to a Target list for later retrieval.
+The user can view the product details by clicking on the bullseye, where detailed information from the Target product catalog can be obtained, such as pricing, review, stocking/availability, and the product can be order (placed into a shopping cart), or added to a Target list for later retrieval.
 
-If the customer is more interested in seeing relevant products that may be more surprising or different, he can return to the crosshair, and click on one of the "neighbor" productions mapped. The UI will reorient itself and center itself on the selection, and reveal new neighbors, while keeping the original closest match in sight.
+If the customer is more interested in seeing relevant products that may be more surprising or different, he can return to the crosshair, and click on one of the "neighbor" products mapped. The UI will reorient itself and center itself on the selection, and reveal new neighbors, while keeping the original closest match in sight.
 
-Or, if users want to have that "Magic 8 Ball" experience, give their touch-sensitive device a quick shake, and the crosshair will reorient and recenter automatically, again, keeping the closest match in sight.
+Or, if users want to have that "Magic 8 Ball" experience, give their touch-sensitive mobile device a quick shake, and the crosshair will randomize the neighbors, reorient and recenter automatically, once again keeping the original closest match in sight.
 
-This app and UI presents products, and similar items, in a novel, compact way, that also makes it fun for the users. It' uses the core visual conciet of Target's corporate identity as a feature. Moveover, we feel that the interface, which based on the class quandrant, presents some unique ways to present products across different dimensions.
+This app and UI presents products, and similar items, in a novel, compact way, that also makes it fun for the users. It uses the core visual conceit of Target's corporate identity—the target—as a feature. Moveover, we feel that the interface, which based on the classic quandrant matrix, presents some unique ways to present products across different dimensions which can be customized by Target, or even by customers.
 
-The "list" feature will allow people to have crosshairs as lists which can then be shared with other family members, friends, wedding registry invitees, etc.
+An implicit "list" feature will allow people to save crosshairs as lists which can then be shared with other family members, friends, bridal registry invitees, baby shower members, etc.
 
 
 ###Team Leader
