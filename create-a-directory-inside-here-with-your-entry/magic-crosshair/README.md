@@ -4,7 +4,7 @@ A possibly fun **Target&copy;** mobile shopping list app
 
 ##Download
 
-<a href="magic_crosshair_rough_mockup.pdf">PDF available</a>
+<a href="magic_crosshair_rough_mockup.pdf">PDF available</a>: contains "mockup" images also available in the /images folder.
 
 ##Description
 
