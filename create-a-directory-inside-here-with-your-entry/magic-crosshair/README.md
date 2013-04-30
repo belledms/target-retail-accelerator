@@ -24,7 +24,7 @@ As stated above: Crosshair is an intelligent and customizable mobile search filt
 
 ...click on the bullseye to get detailed product information, check in-store availability, add products to your shopping cart, or save to a Target shopping list.
 
-...in addition to the native search capability, searches could also be triggered by selecting items from a saved Target shopping list, or by scanning barcodes, if the host smartphone has that capability.
+...in addition to the native search capability, searches can also be triggered by selecting items from a saved Target shopping list, or by scanning barcodes, if the host smartphone has that capability.
 
 ...built-in social features lets you save your crosshairs and share them with family, friends, coworkers, and which can be reused as the starting points for further discovery.
 
