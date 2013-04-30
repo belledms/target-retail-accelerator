@@ -45,7 +45,7 @@ Lawrence ("Larry") Green
 larry.green@landor.com
 1 (415) 365-4411
 
-***Team Members
+###Team Members
 
 Chris Pike
 chris.pike@landor.com
