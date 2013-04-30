@@ -8,7 +8,7 @@ PDF available
 
 ##Description
 
-**TL;DR** (aka __Executive Summary__): Crosshair is similar to the "Magic 8-Balls" toys of many folk's childhoods (and even adulthoods): you ask a question, shake the 8-Ball, turn it over an get your answer. Quick. Easy. Amusing. Instead of using a plastic toy, Crosshair uses the Target API, a clever UI, search filtering, and the motion sensing capabilities of smartphones.
+**TL;DR** (aka _Executive Summary_): Crosshair is similar to the "Magic 8-Balls" toys of many folk's childhoods (and even adulthoods): you ask a question, shake the 8-Ball, turn it over an get your answer. Quick. Easy. Amusing. Instead of using a plastic toy, Crosshair uses the Target API, a clever UI, search filtering, and the motion sensing capabilities of smartphones.
 
 ###Example Use Case
 
@@ -30,7 +30,7 @@ It's your girlfriend's birthday. You want to surprise her with a gift. You know 
 
 The customer can view the product details by clicking on the bullseye, where detailed information from the Target product catalog can be obtained, such as pricing, product reviews, stocking/availability, and the product can be order (placed into a shopping cart), or added to a Target list for later retrieval.
 
-If the customer is more interested in __discovering__ related products that may be more popular or different/cooler/surprising than the initial match, she can return to the crosshair interface, and click on one of the "neighbor" products mapped. The UI will reorient and center itself on the selection, and reveal new neighbors, while keeping the original closest match in sight.
+If the customer is more interested in _discovering_ related products that may be more popular or different/cooler/surprising than the initial match, she can return to the crosshair interface, and click on one of the "neighbor" products mapped. The UI will reorient and center itself on the selection, and reveal new neighbors, while keeping the original closest match in sight.
 
 If the customer wants to have that "Magic 8 Ball" experience, she'll just give her touch-sensitive mobile device a quick shake, and the crosshair will randomize the neighbors, reorient and recenter automatically, once again keeping the original closest match in sight.
 
