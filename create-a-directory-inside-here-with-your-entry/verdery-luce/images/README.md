@@ -1,5 +1,13 @@
-At least one but no more than 10 visual examples of the proposed mobile experience (e.g., wireframes, screenshots, mock ups).
+# UI Mockups
 
-* Please limit images types to JPEG, PNG, or GIF.
+![Login](TTogether_1_login.png)
 
-Feel free to describe them within this document.
+![Home](TTogether_2_home.png)
+
+![Deals](TTogether_3_deals.png)
+
+![Event](TTogether_4_event.png)
+
+![Me](TTogether_5_me.png)
+
+![Visual Representation](TTogether_6_mapidea.png)
