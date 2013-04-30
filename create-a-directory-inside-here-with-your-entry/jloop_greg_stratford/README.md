@@ -105,7 +105,7 @@ David is actually getting more and spending LESS!
 
 JLOOP is focused on creating sophisticated design solutions and
 gangbuster technology to create digital experiences that are unique,
-engaging, and focused on results. [- Our Portfolio -](http://jloop.com/#/portfolio)
+engaging, and focused on results.
 
 ###The Team
 

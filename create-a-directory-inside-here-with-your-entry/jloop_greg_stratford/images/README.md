@@ -2,15 +2,14 @@
 
 *****
 
-###Loading Screen
+###THE LEAGUE - Branding & Loading Screen
 
 ![Loading Image](jloop_target_less_1.png)
 
-Animated loading splash page brands and helps set the tone for the user experience. This is not your ordinary shopping app.  
-
+Animated loading splash page brands and helps set the tone for the user experience. This is not your ordinary shopping list app...
 *****
 
-###Exploring the Feed of the Creations in the League
+###EXPLORE - the inpiration provided by the creations in The League
 
 ![Explore Mode](jloop_target_less_2.png)
 
@@ -26,7 +25,7 @@ Presented first while swiping up on a selected Creation will show the descriptio
 
 *****
 
-###*SWIPE UP* - Target Products Tagged in a Creation 
+###*SWIPE UP SOME MORE* - Target Products Tagged in a Creation 
 
 ![Products](jloop_target_less_4.png)
 
@@ -34,21 +33,21 @@ Further scrolling up will reveal a list of all the products used in this creatio
 
 *****
 
-###*Changing Perspective* - The Navigation Drawer
+###*CHANGING PERSPECTIVE* - The Navigation Drawer
 ![Navigation Drawer](jloop_target_less_5.png)
 
 In the upper left, pop open the navigation drawer have quick access to Explore Filter options as well as User Profile and Settings.  Prominently feature at the top is quick access to the “Create” button that launches the photo based create process.
 
 *****
 
-###The Creation Process
+###CREATE - The Creation Process
 ![Create](jloop_target_less_6.png)
 
 The create process starts with composing and taking a photo of your creation of various Target products.
 
 *****
 
-###Tagging Products with Target Product Data
+###TAGGING -  Products with Target Product Data
 ![](jloop_target_less_7.png)
 
 Once the photo is taken the user tags items in the photo by scanning barcodes or looking up items.  They complete the Creation by entering a brief description. Creations are automatically organized for Explore mode according to products that are in them as well as hash tags in the description.
