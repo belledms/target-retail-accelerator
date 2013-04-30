@@ -1,6 +1,7 @@
 *Prepared by JLOOP, April 30th, 2013*
 ## The League of Extraordinary Social Shoppers (LESS)  
 ### A Target Retail Accelerator Proposal by JLOOP - Long Beach, CA
+[Download PDF Version](jloop_README.pdf)
 
 * * * * *
 
@@ -26,10 +27,10 @@ LESS performs its magic in two modes:
     endorsements through “likes” or “followers”.
 2.  **Explore Mode** - *Explore and discover the creations of others and be
     inspired by fresh ideas curated by an active social community.*
-     Shoppers discover inspirational creations made by others - easily
-    exploring using a variety of filters such as popular and featured,
-    creations they liked, creators they follow, categories, and
-    creations described with particular keywords or tags.  Shoppers can
+    Shoppers discover inspirational creations made by others - easily
+    exploring using a variety of filters such as *popular* and *featured*,
+    creations they *liked*, creators they *follow*, *categories*, and
+    creations described with particular *keywords* or *tags*.  Shoppers can
     receive instant inspiration by simply scanning a product’s barcode
     and magically window-shop creations that feature that product.  The
     best ideas are lifted to the top by the LESS community and once a
@@ -62,8 +63,8 @@ Social Shoppers.  
 
 Best of all, since she makes such awesome creations, she is rewarded
 with Target discounts when she reaches Creator Achievements - as other
-participants in The League follow her, like her creations, or
-purchase products discovered through her creations.  No wonder Jennifer
+participants in The League follow her, *like* her creations, or
+*purchase* products discovered through her creations.  No wonder Jennifer
 loves to shop at Target so much!
 
 ###User Story \#2: David, uninspired shopper
@@ -89,7 +90,7 @@ real apartment like his.
 Once David finds something that inspires him, with a simple tap he can
 push the related products to his TargetLists®, so he’s ready when he
 gets to the store. David may even find that he is inspired by a
-particular Creator and follow that person for future ideas on fashion,
+particular Creator and *follow* that person for future ideas on fashion,
 decorating, or other lifestyle product lines.  Using in-store location
 services, when David opens the app in the home furnishings section, he
 is immediately inspired by ideas relevant to where he is standing.
@@ -132,11 +133,11 @@ The following are members of the JLOOP Team:
 JLOOP proposes the following strategy for developing the LESS
 application:
 
-1.  Develop essential application wireframes and visual designs
-2.  Fast-track Initial Prototype Development
-3.  Generate limited initial content for testing purposes
-4.  Conduct extensive real shopper testing
-5.  Revise application wireframes and visual designs based on shopper
+-  Develop essential application wireframes and visual designs
+-  Fast-track Initial Prototype Development
+-  Generate limited initial content for testing purposes
+-  Conduct extensive real shopper testing
+-  Revise application wireframes and visual designs based on shopper
     testing
-6.  Complete application development
+-  Complete application development
 
