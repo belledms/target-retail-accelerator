@@ -30,7 +30,7 @@ It's your girlfriend's birthday. You want to surprise her with a gift. You know 
 
 ###Additional Details
 
-The customer can view the product details by clicking on the bullseye, where detailed information from the Target product catalog can be obtained, such as pricing, product reviews, stocking/availability, and the product can be order (placed into a shopping cart), or added to a Target list for later retrieval.
+The customer can view the product details by clicking on the bullseye, where detailed information from the Target product catalog can be obtained, such as pricing, product reviews, stocking/availability, and the product can be ordered (placed into a shopping cart), or added to a Target list for later retrieval.
 
 If the customer is more interested in _discovering_ related products that may be more popular or different/cooler/surprising than the initial match, she can return to the crosshair interface, and click on one of the "neighbor" products mapped. The UI will reorient and center itself on the selection, and reveal new neighbors, while keeping the original closest match in sight.
 
