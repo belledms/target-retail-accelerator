@@ -1,4 +1,4 @@
-# Team/App Name: One and Only
+# Team/App Name: One & Only
 
 ## Team Members:
 * Calvin Ly - calvinly80@gmail.com 
