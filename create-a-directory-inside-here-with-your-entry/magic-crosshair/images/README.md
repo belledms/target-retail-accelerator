@@ -4,12 +4,12 @@
 
 ###Screens
 
-* Welcome: 1\_\_welcome\_mockup.png
-* Login: 2\_\_login\_mockup.png
-* Profile: 3\_\_profile\_mockup.png
-* Quick Search: 4\_\_quicksearch\_mockup.png
-* "Thinking": 5\_\_searching\_mockup.png
-* Initial Match: 6\_\_initialmatch\_mockup.png
-* Magic Shake Match: 7\_\_magicshakematch\_mockup.png
-* Product Detail: 8\_\_productdetail\_mockup.png
+* Welcome: fire up the app: 1\_\_welcome\_mockup.png
+* Login: login for customized features: 2\_\_login\_mockup.png
+* Profile: your Target profile 3\_\_profile\_mockup.png
+* Quick Search: type in a search term: 4\_\_quicksearch\_mockup.png
+* "Thinking": animation while app searches: 5\_\_searching\_mockup.png
+* Initial Match: best match in the bullseye: 6\_\_initialmatch\_mockup.png
+* Magic Shake Match: alternate related match after shake: 7\_\_magicshakematch\_mockup.png
+* Product Detail: pricing, availability, shopping: 8\_\_productdetail\_mockup.png
 
