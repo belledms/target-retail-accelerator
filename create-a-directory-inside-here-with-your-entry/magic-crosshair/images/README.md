@@ -1,6 +1,6 @@
 #Mockup Images
 
-*Please note*: these mockups were not desinged by _real_ Landor designers, so go easy on us. It's the concept.
+*Please note*: these mockups were not designed by _real_ Landor designers, so go easy on us. Hopefully these will help _partially_ illustrate the idea better than flowery words.
 
 ###Screens
 
