@@ -41,17 +41,17 @@ An implicit "list" feature will allow people to save crosshairs as lists which c
 
 ###Team Leader
 
-Lawrence ("Larry") Green
-larry.green@landor.com
+Lawrence ("Larry") Green  
+larry.green@landor.com  
 1 (415) 365-4411
 
 ###Team Members
 
-Chris Pike
+Chris Pike  
 chris.pike@landor.com
 
-Robin Lapid
+Robin Lapid  
 robin.lapid@landor.com
 
-Amy Angerami
+Amy Angerami  
 amy.angerami@landor.com
