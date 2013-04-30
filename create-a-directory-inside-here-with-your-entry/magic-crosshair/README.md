@@ -8,7 +8,7 @@ PDF available
 
 ##Description
 
-**TL;DR** (__aka Executive Summary__): Crosshair is similar to the "Magic 8-Balls" toys of many folk's childhoods (and even adulthoods): you ask a question, shake the 8-Ball, turn it over an get your answer. Quick. Easy. Amusing. Instead of using a plastic toy, Crosshair uses the Target API, a clever UI, search filtering, and the motion sensing capabilities of smartphones.
+**TL;DR** (__aka__ __Executive Summary__): Crosshair is similar to the "Magic 8-Balls" toys of many folk's childhoods (and even adulthoods): you ask a question, shake the 8-Ball, turn it over an get your answer. Quick. Easy. Amusing. Instead of using a plastic toy, Crosshair uses the Target API, a clever UI, search filtering, and the motion sensing capabilities of smartphones.
 
 ###Example Use Case
 
