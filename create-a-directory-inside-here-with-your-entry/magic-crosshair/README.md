@@ -4,7 +4,7 @@ A possibly fun **Target&copy;** mobile shopping list app
 
 ##Download
 
-PDF available
+<a href="magic_crosshair_rough_mockup.pdf">PDF available</a>
 
 ##Description
 
