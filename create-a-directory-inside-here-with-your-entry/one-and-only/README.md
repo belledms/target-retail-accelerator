@@ -7,5 +7,5 @@
 * Stephen Liddick - stephen@liddick.com
 
 
-## App Details
-Please see documents and video for more information about the app.
+## App Idea
+Please see our pdf documents (designs, workflow, and app details) and video for more information about the app.
