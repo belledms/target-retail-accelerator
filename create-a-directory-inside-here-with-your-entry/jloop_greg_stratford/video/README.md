@@ -1,4 +1,4 @@
-## Target L-E-S-S Mobile App Video Use Case
+## Target LESS -  The League of Extrodinary Social Shoppers
 ### The League of Extraordinary Social Shoppers
 
 - [**View JLOOP’s Video Entry on Vimeo**](https://vimeo.com/65119626 )
