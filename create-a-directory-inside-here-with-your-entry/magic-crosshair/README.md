@@ -8,7 +8,7 @@ A possibly fun **Target&copy;** mobile shopping list app
 
 ##Description
 
-**TL;DR** (aka _Executive Summary_): Crosshair is similar to the "Magic 8-Balls" toys of many folk's childhoods (and even adulthoods): you ask a question, shake the 8-Ball, turn it over an get your answer. Quick. Easy. Amusing. Instead of using a plastic toy, Crosshair uses the Target API, a clever UI, search filtering, and the motion sensing capabilities of smartphones, to deliver relevant and surprising results.
+**TL;DR** (aka _Executive Summary_): **Crosshair is an intelligent and customizable mobile search filter for the Target catalog.** Crosshair is similar to the "Magic 8-Balls" toys of many folk's childhoods (and even adulthoods): you ask a question, shake the 8-Ball, turn it over an get your answer. Quick. Easy. Amusing. Instead of using a plastic toy, Crosshair uses the Target API, a clever UI, search filtering, and the motion sensing capabilities of smartphones, to deliver relevant and surprising results.
 
 ###Example Use Case
 
@@ -16,7 +16,7 @@ It's your girlfriend's birthday. You want to surprise her with a gift. You know 
 
 ###Quick Overview
 
-**Crosshair is an intelligent and customizable mobile search filter for the Target catalog** that will reveal the best products and closest neighbors (similar products, along any number of spectra, which can be pre-selected by Target, or customized by the customer.)
+As stated above: Crosshair is an intelligent and customizable mobile search filter for the Target catalog that will reveal the best products and closest neighbors (similar products, along any number of spectra, which can be pre-selected by Target, or customized by the customer.)
 
 ...don't like what you found? Click on one of the neighbors mapped on the crosshair UI, and the interface reorients and recenters on your selection.
 
