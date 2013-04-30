@@ -1,8 +1,8 @@
-*Mockup Images
+#Mockup Images
 
-**Please note**: these mockups were not desinged by _real_ Landor designers, so go easy on us. It's the concept.
+*Please note*: these mockups were not desinged by _real_ Landor designers, so go easy on us. It's the concept.
 
-***Screens
+###Screens
 
 * Welcome: 1\_\_welcome\_mockup.png
 * Login: 2\_\_login\_mockup.png
