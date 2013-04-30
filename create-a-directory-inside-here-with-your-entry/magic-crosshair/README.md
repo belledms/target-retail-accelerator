@@ -16,7 +16,7 @@ It's your girlfriend's birthday. You want to surprise her with a gift. You know 
 
 ###Quick Overview
 
-**Crosshair is an intelligent and customizable mobile search filter for the Target catalog** that will reveal the best products and closest neighbors (similar products, along any number of spectrum, which can be pre-selected by Target, or customized by the user.)
+**Crosshair is an intelligent and customizable mobile search filter for the Target catalog** that will reveal the best products and closest neighbors (similar products, along any number of spectra, which can be pre-selected by Target, or customized by the customer.)
 
 ...don't like what you found? Click on one of the neighbors mapped on the crosshair UI, and the interface reorients and recenters on your selection.
 
@@ -28,15 +28,15 @@ It's your girlfriend's birthday. You want to surprise her with a gift. You know 
 
 ###Additional Details
 
-The user can view the product details by clicking on the bullseye, where detailed information from the Target product catalog can be obtained, such as pricing, review, stocking/availability, and the product can be order (placed into a shopping cart), or added to a Target list for later retrieval.
+The customer can view the product details by clicking on the bullseye, where detailed information from the Target product catalog can be obtained, such as pricing, product reviews, stocking/availability, and the product can be order (placed into a shopping cart), or added to a Target list for later retrieval.
 
-If the customer is more interested in seeing relevant products that may be more surprising or different, he can return to the crosshair, and click on one of the "neighbor" products mapped. The UI will reorient itself and center itself on the selection, and reveal new neighbors, while keeping the original closest match in sight.
+If the customer is more interested in __discovering__ related products that may be more popular or different/cooler/surprising than the initial match, she can return to the crosshair interface, and click on one of the "neighbor" products mapped. The UI will reorient and center itself on the selection, and reveal new neighbors, while keeping the original closest match in sight.
 
-Or, if users want to have that "Magic 8 Ball" experience, give their touch-sensitive mobile device a quick shake, and the crosshair will randomize the neighbors, reorient and recenter automatically, once again keeping the original closest match in sight.
+If the customer wants to have that "Magic 8 Ball" experience, she'll just give her touch-sensitive mobile device a quick shake, and the crosshair will randomize the neighbors, reorient and recenter automatically, once again keeping the original closest match in sight.
 
-This app and UI presents products, and similar items, in a novel, compact way, that also makes it fun for the users. It uses the core visual conceit of Target's corporate identity—the target—as a feature. Moveover, we feel that the interface, which based on the classic quandrant matrix, presents some unique ways to present products across different dimensions which can be customized by Target, or even by customers.
+This mobile app and UI showcases products, and similar items, in a novel, compact way, that also makes the experience engaging for the customer—a hallmark of the Target brand experience. Crosshair uses the dominant visual conceit of Target's corporate identity—the target—as a feature. Moveover, the interface—if executed as imagined here, and which is based on the classic quadrant matrix—presents some unique ways to present products across different dimensions which can be customized by Target, or even the customers themselves.
 
-An implicit "list" feature will allow people to save crosshairs as lists which can then be shared with other family members, friends, bridal registry invitees, baby shower members, etc.
+Built-in "list" functionality will allow customers to replay, save, and share Crosshair results as list with other family members, friends, bridal registry invitees, baby shower members, etc.
 
 
 ###Team Leader
