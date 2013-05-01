@@ -64,6 +64,6 @@ The creator then scans product barcodes or looking up products in a hierarchical
 ###DESCRIBING -  What is this Creation about?
 ![](target_app_screens_101-09.jpg)
 
-The final step for making a Creation is adding a brief description telling what it's all about.  The Creator can even add #hashtags to aid App users in finding like Creations as they browse. Once done, simply tap "Share" to make the Creation visible to other League users.
+The final step for making a Creation is adding a brief description telling what it's all about.  The Creator can even add #hashtags to aid App users in finding similar Creations as they browse tags. Once done, simply tap "Share" to make the Creation visible to other League users.
 
 *****
