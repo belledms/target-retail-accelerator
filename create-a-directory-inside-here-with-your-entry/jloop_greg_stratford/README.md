@@ -69,8 +69,6 @@ loves to shop at Target so much!
 
 ###User Story \#2: David, uninspired shopper
 
------------------------------------------
-
 David is a Target quick shopper.  Get in.  Get out.  The last thing
 David wants to do is spend hours in the store looking for new clothes or
 coordinating the decoration of his apartment.  He wants to be stylish -
