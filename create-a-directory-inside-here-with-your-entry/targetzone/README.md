@@ -1,6 +1,6 @@
 # The Sonic Team presents TargetZONE
 ## The app for finding deals, coupons, reviews, and content on items as you walk around the store. 
-###The app works by using Sonic Notify technology to localize a phone in front of a item on a store shelf. Example: Once the app knows you are in front of the potato chips, then the app responds and shows you the content. 
+###The app works by using Sonic Notify technology to localize a phone in front of a item on a store shelf. Example: Once the app knows you are in front of the potato chips, then the app beeps and shows you a funny talking potato chip video. 
 
 ## What is Sonic Notify?
 [Sonic Notify](http://www.sonicnotify.com) is a company that provides a mobile SDK and platform for delivering content through inaudible sound. The TargetZone app uses Sonic Notify beacons arranged through a store to deliver content to the consumer durring their shopping trip. 
@@ -42,8 +42,8 @@ Alex Bell - Engineering - alex@sonicnotify.com
 <a href="http://www.flickr.com/photos/sonicnotify/8221524465/" title="IMG_3205.JPG by SN LABS, on Flickr"><img src="http://farm9.staticflickr.com/8060/8221524465_5edd52ff15_o.jpg" width="360" height="240" alt="IMG_3205.JPG"></a>
 
 ##Included in this folder
-##### /images/Target_Zone_Wireframe.pdf
-##### /video/Target.mov 
+##### /images/Target_Zone_Wireframe.pdf   - Showing you all that the TargetZONE app could be. 
+##### /video/Target.mov - Brief video highlighting the apps capabilities. 
 ##### targetZoneIOSApp the alpha version of the target zone ios app. The application carries out the main feature of responding to a Sonic Notify beacon and presenting content.
 ##### /web-content/Crayola and /web-content/BlackEyedPeas show examples of 2 pieces of dynamic content which can be delivered to the targetzone app
 
@@ -51,7 +51,7 @@ Alex Bell - Engineering - alex@sonicnotify.com
 1. Download and install the targetZoneIOSApp app on a phone.
    * Or a testflight version can be provided.
 2. Give us a shout so that we can send you a beacon or two. 
-3. Place your becaons around a space, (i dont know, a Target Store could be cool)
+3. Place your beacons around a space, (i dont know, a Target Store could be cool)
 4. Associate content to each beacon in the Sonic Notify CMS. 
 5. Walk around as the app presents you with information when you get close to each product. 
 
