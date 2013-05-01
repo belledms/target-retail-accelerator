@@ -1,6 +1,6 @@
 #Crosshair (0.0.1) 
 
-A possibly fun **Target&copy;** mobile shopping list app
+A possibly fun **Target&copy;** mobile shopping app
 
 ##Download
 
