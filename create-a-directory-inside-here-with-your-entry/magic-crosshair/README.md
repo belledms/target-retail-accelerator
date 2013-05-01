@@ -6,7 +6,7 @@ A possibly fun **Target&copy;** mobile shopping list app
 
 * <a href="MagicCrosshair.doc">DOC available</a>: application description (this README in document format)
 
-* <a href="magic_crosshair_rough_mockup.pdf">PDF available</a>: contains "mockup" images also available in _/images_ folder
+* <a href="MagicCrosshairMockups_rough.pdf">PDF available</a>: contains "mockup" images also available in _/images_ folder
 
 ##Description
 
