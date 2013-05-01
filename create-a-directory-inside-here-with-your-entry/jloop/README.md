@@ -137,5 +137,5 @@ application:
 -  Conduct extensive real shopper testing
 -  Revise application wireframes and visual designs based on shopper
     testing
--  Complete application development
+-  Complete application development 
 
