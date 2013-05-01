@@ -8,7 +8,7 @@ erik.kerber@gmail.com
 _________________________________________________________
 ## Files
 * Target School Assistant.docx -- Description (Word version)
-* Target School Assistant.docx -- Description(Adobe version)
+* Target School Assistant.pdf -- Description(Adobe version)
 * TargetAccel.bmml - Balsamiq source - Please ignore :)
 
 /Images
