@@ -5,7 +5,7 @@
 ## What is Sonic Notify?
 [Sonic Notify](http://www.sonicnotify.com) is a company that provides a mobile SDK and platform for delivering content through inaudible sound. The TargetZone app uses Sonic Notify beacons arranged through a store to deliver content to the consumer durring their shopping trip. 
 
-[![ScreenShot](http://sonic-content.s3.amazonaws.com/Screen%20Shot%202013-04-30%20at%208.52.49%20PM.png)](http://youtu.be/vt5fpE0bzSY)
+[![ScreenShot](http://sonic-content.s3.amazonaws.com/Screen%20Shot%202013-04-30%20at%208.52.49%20PM.png)](https://vimeo.com/64251629)
 
 Here is an example of a Sonic Notify Beacon. 
 
