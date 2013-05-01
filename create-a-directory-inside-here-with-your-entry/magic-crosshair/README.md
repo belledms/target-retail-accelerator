@@ -18,7 +18,7 @@ It's your girlfriend's birthday. You want to surprise her with a gift. You know 
 
 ###Quick Overview
 
-As stated above: Crosshair is an intelligent and customizable mobile search filter for the Target catalog that will reveal the best products and closest neighbors (similar products, along any number of spectra, which can be pre-selected by Target, or customized by the customer.)
+As stated above: Crosshair is an intelligent and customizable mobile search filter for the Target catalog that will reveal the best products and closest neighbors (similar products, along any number of spectrums, which can be pre-selected by Target, or customized by the customer.)
 
 ...don't like what you found? Click on one of the neighbors mapped on the crosshair UI, and the interface reorients and recenters on your selection.
 
@@ -34,7 +34,7 @@ As stated above: Crosshair is an intelligent and customizable mobile search filt
 
 The customer can view the product details by clicking on the bullseye, where detailed information from the Target product catalog can be obtained, such as pricing, product reviews, stocking/availability, and the product can be ordered (placed into a shopping cart), or added to a Target list for later retrieval.
 
-If the customer is more interested in _discovering_ related products that may be more popular or _more surprising/cooler/different_ than the initial match, she can return to the crosshair interface, and click on one of the "neighbor" products mapped. The UI will reorient and center itself on the selection, and reveal new neighbors, while keeping the original closest match in sight.
+If the customer is more interested in _discovering_ related products that may be more popular or _more surprising/cooler/different_ (examples of different comparison spectrums) than the initial match, she can return to the crosshair interface, and click on one of the "neighbor" products mapped. The UI will reorient and center itself on the selection, and reveal new neighbors, while keeping the original closest match in sight.
 
 If the customer wants to have that "Magic 8 Ball" experience, she'll just give her touch-sensitive mobile device a quick shake, and the crosshair will randomize the neighbors, reorient and recenter automatically, once again keeping the original closest match in sight.
 
