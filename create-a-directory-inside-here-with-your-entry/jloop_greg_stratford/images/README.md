@@ -60,3 +60,10 @@ Once the photo is taken, the creator identify’s products in the photo by tappi
 The creator then scans product barcodes or looking up products in a hierarchical structure.  By identifying these relationships, the Explore modes can offer inspirational product combinations, created by The League users. 
 
 *****
+
+###DESCRIBING -  What is this Creation about?
+![](target_app_screens_101-09.jpg)
+
+The final step for making a Creation is adding a brief description telling what it's all about.  The Creator can even add #hashtags to aid App users in finding like Creations as they browse. 
+
+*****
