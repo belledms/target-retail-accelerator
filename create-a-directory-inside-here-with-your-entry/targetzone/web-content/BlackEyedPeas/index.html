@@ -1,0 +1,266 @@
+<html>
+    <head>
+	
+		<base href="http://10.0.1.235/~alex2/mraid/demos/BlackEyedPeas/"/>
+		<meta name='viewport' content='user-scalable=no; initial-scale=1.0'/>
+		
+        <link rel="stylesheet" type="text/css" href="../css/grid.css?v0.4" />
+        <script src="../js/jquery.js" type="text/javascript"></script>
+
+        <link rel="stylesheet" type="text/css" href="main.css?v0.37" />
+
+        <script type="text/javascript">
+
+            var BLACKEYEDPEAS_AD_STATES = {
+                BANNER_MODE : 0,
+                FULL_WELCOME_SCREEN : 1,
+            }
+
+            function BlackEyedPeasAd(container) {
+				console.log("Constructor");
+                this.render(container);
+
+                return this;
+            }
+
+            BlackEyedPeasAd.prototype.render = function(container) {
+                this.ui = {};
+				console.log("Render");
+                this.ui.container = $('<div>').addClass('blackeyedpeas advertisement container').appendTo(container);
+
+                this.ui.logo = $('<img>').attr('src','../logo.png').addClass('logo').appendTo(this.ui.container);
+				
+                this.ui.body = $('<div>').addClass('body row').appendTo(this.ui.container);
+                this.ui.background = $('<div>').addClass('background').appendTo(this.ui.container);
+				
+				console.log("Set mode");
+                this.setMode(BLACKEYEDPEAS_AD_STATES.BANNER_MODE);
+
+                return this;
+
+            }
+
+            BlackEyedPeasAd.prototype.setMode = function(mode, isAnimated) {
+				console.log("Mode: " + mode + "/" + this.mode);
+                if (this.mode != mode) {
+                    this.mode = mode;
+
+                    this.ui.body.removeClass('banner');
+                    this.ui.body.unbind('click');
+
+                    this.clearScreen(isAnimated);
+
+                    switch (mode) {
+
+                        case BLACKEYEDPEAS_AD_STATES.BANNER_MODE :
+		
+                                this.renderBannerMode(isAnimated);
+                            break;
+
+                        case BLACKEYEDPEAS_AD_STATES.FULL_WELCOME_SCREEN :
+                                this.renderFullWelcomeScreen(isAnimated);
+                            break;
+
+                    }
+
+                }
+
+                return this;
+
+            }
+
+			BlackEyedPeasAd.prototype.bounceStart = function(element, times, distance, speed) {
+				element.attr("bounce", true);
+				return this.bounce(element, times, distance, speed);
+			}
+			
+            BlackEyedPeasAd.prototype.bounce = function(element, times, distance, speed) {
+				if (this.mode != BLACKEYEDPEAS_AD_STATES.BANNER_MODE)
+					return this;
+				
+				element.animate(
+					{
+						marginTop: '-=' + distance, 
+						rotate: '+=360deg'
+					}, speed).animate(
+						{
+							marginTop: '+=' + distance, 
+							rotate: '-=360deg'}, speed, function() {
+								window.blackEyedPeasAd.bounce(element,times,distance,speed);
+							}
+						);
+                return this;
+
+            }
+
+            BlackEyedPeasAd.prototype.setBannerState = function(isAnimated) {
+
+                if (isAnimated) {
+                    this.ui.body.animate( { height : '200px'}, 1000);
+                } else {
+                    this.ui.body.height(100);
+                }
+
+                return this;
+            }
+
+            BlackEyedPeasAd.prototype.setFullState = function(isAnimated) {
+
+                if (isAnimated) {
+                    this.ui.body.animate( { height : '100%' }, 1000);
+                } else {
+                    this.ui.body.height('100%');
+                }
+
+                return this;
+
+            }
+
+            BlackEyedPeasAd.prototype.clearScreen = function(isAnimated) {
+
+                if (isAnimated == true) {
+
+                    var copy = this.ui.body.clone().appendTo(this.ui.body.parent());
+
+                    copy.css({ 'position' : 'absolute', 'top': '0px', 'right' : '0px', 'left' : '0px' });
+
+                    copy.fadeOut(function() {
+                        copy.remove();
+                    });
+
+                }
+
+                this.ui.body.remove();
+                this.ui.body = $('<div>').addClass('body row').appendTo(this.ui.container).hide();
+
+                this.ui.body.fadeIn();
+
+                return this;
+            }
+
+            BlackEyedPeasAd.prototype.renderBannerMode = function(isAnimated) {
+
+                this.setBannerState(isAnimated);
+				
+				var targetBannerBackground = $('<img>').attr('src','targetBannerBackground.png').width(320).css({position: "absolute", left: 0, top: 0}).appendTo(this.ui.body);
+				var targetLogo = $('<img>').attr('src','targetLogo.png').width(30).css({position: "absolute", left: "90%", top: "90%"}).appendTo(this.ui.body);
+				this.bounceStart(targetLogo, 10, 20, 1000);
+                $('<div>').addClass('clear').appendTo(this.ui.body);
+
+                var blackEyedPeasAd = this;
+
+                this.ui.body.click(function() {
+                    mraid.expand();
+                });
+
+                return this;
+            }
+
+            BlackEyedPeasAd.prototype.renderFullWelcomeScreen = function(isAnimated) {
+
+                this.setFullState(isAnimated);
+
+                var text = $('<div>').addClass('fleft topimage').appendTo(this.ui.body);
+				
+                var secondRow = $('<div>').addClass('row').appendTo(this.ui.body);
+
+                var picture = $('<div>').addClass('fleft').appendTo(secondRow);
+                $('<div>').addClass('large video').html('<object width="320" height="200"><param name="movie" value="http://www.youtube.com/v/T2NaZNEo4j0&list=SPAEFBB40E0CDAE186"></param><embed src="http://www.youtube.com/v/T2NaZNEo4j0&list=SPAEFBB40E0CDAE186" type="application/x-shockwave-flash"></embed></object>').css({
+						marginLeft: 10,
+						marginTop: 50,
+						width: 320
+					}).appendTo(picture);
+				
+				var text = $('<div>').addClass('fleft').css({
+							position:"relative",
+							marginLeft: 30,
+							marginTop: 30,
+							textAlign: "left",
+							left: "0 px",
+							top: "0 px"
+						}).appendTo(picture);
+						
+				$('<span>').addClass('couponMedium').appendTo(text).html('Music Video<br/>');
+				$('<span>').addClass('couponXLarge').appendTo(text).html('Black Eyed Peas<br/>');
+				$('<span>').addClass('couponLarge').appendTo(text).html('Target Commercial<br/>');
+				$('<span>').addClass('couponSmall').appendTo(text).html('The Black Eyed Peas in a new Target Commerical Delux version <br/>of the E.N.D. available only at target<br/>');
+                $('<img>').attr('src','shareicon_twitter.png').attr("width","10%").css({
+						marginLeft: 0,
+						marginTop: 10
+					}).click(function() {
+					
+					mraid.tweet(" I just got the DELUX version of the the E.N.D. from the @BlackEyedPeas cause I shop at Target");
+                }).appendTo(text);
+				var fourthRow = $('<div>').addClass('row').appendTo(secondRow);
+				$('<hr>').addClass('productLine').appendTo(fourthRow);
+				var text = $('<div>').addClass('').css({
+					position:"relative",
+							marginLeft: 30,
+							marginTop: 0,
+							textAlign: "left",
+							width: "100%",
+							left: "0 px",
+							top: "0 px"
+						}).appendTo(fourthRow);
+				$('<span>').addClass('productReviewHeader').appendTo(text).html('Product Review');
+				$('<hr>').addClass('productLine').appendTo(fourthRow);
+				var productReview1 = $('<div>').addClass('').appendTo(fourthRow);
+				productReview1.css({
+					position:"relative"
+				});
+                $('<img>').attr('src','thumbnail_pic.png').attr("width","12%").css({
+						marginLeft: "3%",
+						marginTop: 10
+					}).appendTo(productReview1);
+				var text = $('<div>').addClass('fleft').css({
+					width: "100%",
+							marginLeft: 60,
+							marginTop: 0,
+							textAlign: "left",
+							position: "absolute",
+							left: "0 px",
+							top: "0 px"
+						}).appendTo(productReview1);
+				$('<span>').addClass('couponMedium').appendTo(text).html('I love the black eyed peas.  <br/>And now I love target, cause <br/>i can get cool versions of stuff just for shopping! <br/> ');
+				
+				return this;
+                
+            }
+
+
+            function startAd() {
+				console.log("Start ad");
+                window.blackEyedPeasAd = new BlackEyedPeasAd(document.getElementsByTagName("body")[0]);
+
+            }
+
+			function stateChange() {
+				console.log("State change: " + mraid.getState());
+				if (mraid.getState() === mraid.STATES.DEFAULT) {
+					window.blackEyedPeasAd.setMode(BLACKEYEDPEAS_AD_STATES.BANNER_MODE, true);
+				} else if (mraid.getState() === mraid.STATES.EXPANDED) {
+					window.blackEyedPeasAd.setMode(BLACKEYEDPEAS_AD_STATES.FULL_WELCOME_SCREEN, true);
+				}
+			}
+
+        </script>
+		
+
+    </head>
+    <body style="margin:0;padding:0;overflow:hidden;background:transparent;">
+		<script language="javascript">
+			
+			mraid.addEventListener("stateChange", stateChange);
+            if (mraid.getState() === 'loading') {
+				console.log("Adding handler");
+				mraid.addEventListener('ready', startAd);
+            } else {
+                startAd();
+            }
+			
+		</script>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,105 @@
+.BlackEyedPeas.advertisement > .logo {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+	z-index: 5;
+}
+
+.BlackEyedPeas.advertisement > .body {
+	position: absolute;
+	z-index: 2;
+}
+
+.BlackEyedPeas.advertisement > .background {
+	background-color: #ffffff;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 1;
+}
+
+.BlackEyedPeas.advertisement {
+	font-size: 16px;
+	color: black;
+	font-weight: 500;
+	font-family: 'MarkerFelt-Thin', sans-serif;
+	line-height: 1.25;
+}
+
+
+.banner {
+	max-height: 200px;
+}
+
+.topimage {
+	position: absolute;
+	background-color: #ff0000;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	height: 50px;
+}
+
+.BlackEyedPeas span.exlarge {
+	font-size: 90px;
+	line-height: 1.0;
+	padding-left: 30px;
+}
+
+.BlackEyedPeas span.large {
+	font-size: 36px;
+	line-height: 1.0;
+}
+
+.BlackEyedPeas span.couponSmall {
+	font-family: 'Helvetica Neue';
+	font-size: 7px;
+	line-height: 1.2;
+}
+
+.BlackEyedPeas span.couponMedium {
+	font-family: 'Helvetica Neue';
+	font-size: 15px;
+	line-height: 1.2;
+}
+
+.BlackEyedPeas span.couponLarge {
+	font-family: 'Helvetica Neue';
+	font-size: 24px;
+	line-height: 1.2;
+}
+
+.BlackEyedPeas span.couponXLarge {
+	font-family: 'Helvetica Neue';
+	font-size: 27px;
+	line-height: 1.2;
+}
+
+.BlackEyedPeas span.productReviewHeader {
+	position:"relative";
+	font-family: 'HelveticaNeue-CondensedBold';
+	font-size: 18px;
+	line-height: 1.0;
+}
+
+.BlackEyedPeas span.med {
+	font-size: 20px;
+	line-height: 1.7;
+}
+
+.BlackEyedPeas span.med2 {
+	font-family: 'MarkerFelt-Wide', sans-serif;
+	font-size: 28px;
+	line-height: 1.7;
+}
+
+.BlackEyedPeas hr.productLine{
+	position:"relative";
+	height: 1px;
+	width: "100%";
+	padding: 1px 0px 0px 0px;
+	
+}

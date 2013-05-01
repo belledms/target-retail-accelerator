@@ -1,0 +1,277 @@
+<html>
+    <head>
+	
+		<base href="http://10.0.1.235/~alex2/mraid/demos/Crayola/"/>
+		<meta name='viewport' content='user-scalable=no; initial-scale=1.0'/>
+		
+        <link rel="stylesheet" type="text/css" href="../css/grid.css" />
+        <script src="../js/jquery.js" type="text/javascript"></script>
+
+        <link rel="stylesheet" type="text/css" href="main.css?v2.3" />
+
+        <script type="text/javascript">
+
+            var CRAYOLA_AD_STATES = {
+                BANNER_MODE : 0,
+                FULL_WELCOME_SCREEN : 1,
+            }
+
+            function CrayolaAd(container) {
+				console.log("Constructor");
+                this.render(container);
+
+                return this;
+            }
+
+            CrayolaAd.prototype.render = function(container) {
+                this.ui = {};
+				console.log("Render");
+                this.ui.container = $('<div>').addClass('crayola advertisement container').appendTo(container);
+
+                this.ui.logo = $('<img>').attr('src','../logo.png').addClass('logo').appendTo(this.ui.container);
+				
+                this.ui.body = $('<div>').addClass('body row').appendTo(this.ui.container);
+                this.ui.background = $('<div>').addClass('background').appendTo(this.ui.container);
+				
+				console.log("Set mode");
+                this.setMode(CRAYOLA_AD_STATES.BANNER_MODE);
+
+                return this;
+
+            }
+
+            CrayolaAd.prototype.setMode = function(mode, isAnimated) {
+				console.log("Mode: " + mode + "/" + this.mode);
+                if (this.mode != mode) {
+                    this.mode = mode;
+
+                    this.ui.body.removeClass('banner');
+                    this.ui.body.unbind('click');
+
+                    this.clearScreen(isAnimated);
+
+                    switch (mode) {
+
+                        case CRAYOLA_AD_STATES.BANNER_MODE :
+		
+                                this.renderBannerMode(isAnimated);
+                            break;
+
+                        case CRAYOLA_AD_STATES.FULL_WELCOME_SCREEN :
+                                this.renderFullWelcomeScreen(isAnimated);
+                            break;
+
+                    }
+
+                }
+
+                return this;
+
+            }
+
+			CrayolaAd.prototype.bounceStart = function(element, times, distance, speed) {
+				element.attr("bounce", true);
+				return this.bounce(element, times, distance, speed);
+			}
+			
+            CrayolaAd.prototype.bounce = function(element, times, distance, speed) {
+				if (this.mode != CRAYOLA_AD_STATES.BANNER_MODE)
+					return this;
+				
+				element.animate(
+					{
+						marginTop: '-=' + distance, 
+						rotate: '+=360deg'
+					}, speed).animate(
+						{
+							marginTop: '+=' + distance, 
+							rotate: '-=360deg'}, speed, function() {
+								window.crayolaAd.bounce(element,times,distance,speed);
+							}
+						);
+                return this;
+
+            }
+
+            CrayolaAd.prototype.setBannerState = function(isAnimated) {
+
+                if (isAnimated) {
+                    this.ui.body.animate( { height : '100px'}, 1000);
+                } else {
+                    this.ui.body.height(100);
+                }
+
+                return this;
+            }
+
+            CrayolaAd.prototype.setFullState = function(isAnimated) {
+
+                if (isAnimated) {
+                    this.ui.body.animate( { height : '100%' }, 1000);
+                } else {
+                    this.ui.body.height('100%');
+                }
+
+                return this;
+
+            }
+
+            CrayolaAd.prototype.clearScreen = function(isAnimated) {
+
+                if (isAnimated == true) {
+
+                    var copy = this.ui.body.clone().appendTo(this.ui.body.parent());
+
+                    copy.css({ 'position' : 'absolute', 'top': '0px', 'right' : '0px', 'left' : '0px' });
+
+                    copy.fadeOut(function() {
+                        copy.remove();
+                    });
+
+                }
+
+                this.ui.body.remove();
+                this.ui.body = $('<div>').addClass('body row').appendTo(this.ui.container).hide();
+
+                this.ui.body.fadeIn();
+
+                return this;
+            }
+
+            CrayolaAd.prototype.renderBannerMode = function(isAnimated) {
+
+                this.setBannerState(isAnimated);
+				
+				var crayolaBanner = $('<img>').attr('src','crayola_banner.png').width(320).css({position: "absolute", left: 0, top: 0}).appendTo(this.ui.body);              
+				var targetLogo = $('<img>').attr('src','targetLogo.png').width(30).css({position: "absolute", left: "90%", top: "90%"}).appendTo(this.ui.body);
+				this.bounceStart(targetLogo, 10, 20, 1000);
+                $('<div>').addClass('clear').appendTo(this.ui.body);
+
+                var crayolaAd = this;
+
+                this.ui.body.click(function() {
+                    mraid.expand();
+                });
+
+                return this;
+                
+            }
+
+            CrayolaAd.prototype.renderFullWelcomeScreen = function(isAnimated) {
+
+                this.setFullState(isAnimated);
+
+                var text = $('<div>').addClass('fleft topimage').appendTo(this.ui.body);
+				
+                var secondRow = $('<div>').addClass('row').appendTo(this.ui.body);
+
+                var picture = $('<div>').addClass('fleft').appendTo(secondRow);
+
+                $('<img>').attr('src','coupon_product_pic.png').attr("width","100%").css({
+						marginLeft: 0,
+						marginTop: 50
+					}).appendTo(picture);
+
+				var couponPicture = $('<div>').addClass('fleft').appendTo(secondRow);
+				couponPicture.css({
+					position:"relative"
+				});
+				
+                $('<img>').attr('src','coupon_background_coupon.png').attr("width","90%").css({
+						marginLeft: 20,
+						marginTop: 20
+					}).appendTo(couponPicture);
+					
+				var text = $('<div>').addClass('fleft').css({
+							marginLeft: 30,
+							marginTop: 30,
+							textAlign: "left",
+							position: "absolute",
+							left: "0 px",
+							top: "0 px"
+						}).appendTo(couponPicture);
+						
+				$('<span>').addClass('couponMedium').appendTo(text).html('Crayola Outdoor Item<br/>');
+				$('<span>').addClass('couponLarge').appendTo(text).html('20% Off Coupon<br/>');
+				$('<span>').addClass('couponMedium').appendTo(text).html('We are talking about 3D chalk here <br/> This is some AMAZING stuff <br/>');
+                $('<img>').attr('src','button_cut_coupon.png').attr("width","20%").css({
+						marginLeft: "90%",
+						marginTop: 10
+					}).click(function() {
+					var url = $("base").attr("href") + "Crayola.pkpass";
+					console.log("Add to passbook: " + url);
+					mraid.passbook(url);
+                }).appendTo(text);
+				
+				var fourthRow = $('<div>').addClass('row').appendTo(secondRow);
+				$('<hr>').addClass('productLine').appendTo(fourthRow);
+				var text = $('<div>').addClass('').css({
+					position:"relative",
+							marginLeft: 30,
+							marginTop: 0,
+							textAlign: "left",
+							width: "100%",
+							left: "0 px",
+							top: "0 px"
+						}).appendTo(fourthRow);
+				$('<span>').addClass('productReviewHeader').appendTo(text).html('Product Review');
+				$('<hr>').addClass('productLine').appendTo(fourthRow);
+				var productReview1 = $('<div>').addClass('').appendTo(fourthRow);
+				productReview1.css({
+					position:"relative"
+				});
+                $('<img>').attr('src','thumbnail_pic.png').attr("width","12%").css({
+						marginLeft: "3%",
+						marginTop: 10
+					}).appendTo(productReview1);
+				var text = $('<div>').addClass('fleft').css({
+					width: "100%",
+							marginLeft: 60,
+							marginTop: 0,
+							textAlign: "left",
+							position: "absolute",
+							left: "0 px",
+							top: "0 px"
+						}).appendTo(productReview1);
+				$('<span>').addClass('couponMedium').appendTo(text).html('First I thought little timmy wouldnt like <br/>this chalk. But I was wrong. He loves it, why? <br/>Cause he can draw in three dimensions silly! <br/> ');
+				
+				return this;
+            }
+
+
+            function startAd() {
+				console.log("Start ad");
+                window.crayolaAd = new CrayolaAd(document.getElementsByTagName("body")[0]);
+
+            }
+
+			function stateChange() {
+				console.log("State change: " + mraid.getState());
+				if (mraid.getState() === mraid.STATES.DEFAULT) {
+					window.crayolaAd.setMode(CRAYOLA_AD_STATES.BANNER_MODE, true);
+				} else if (mraid.getState() === mraid.STATES.EXPANDED) {
+					window.crayolaAd.setMode(CRAYOLA_AD_STATES.FULL_WELCOME_SCREEN, true);
+				}
+			}
+
+        </script>
+		
+
+    </head>
+    <body style="margin:0;padding:0;overflow:hidden;background:transparent;">
+		<script language="javascript">
+			
+			mraid.addEventListener("stateChange", stateChange);
+            if (mraid.getState() === 'loading') {
+				console.log("Adding handler");
+				mraid.addEventListener('ready', startAd);
+            } else {
+                startAd();
+            }
+			
+		</script>
+
+
+
+    </body>
+</html>
