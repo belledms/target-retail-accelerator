@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../sn-decoding/src/SNAudioDecoding.c">
+      <sourceFolder url="file://$MODULE_DIR$/../sn-decoding/src/SNAudioDecoding.c" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../sn-decoding/src/SNAudioDecoding.h">
+      <sourceFolder url="file://$MODULE_DIR$/../sn-decoding/src/SNAudioDecoding.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../sn-ios-sdk">
+      <sourceFolder url="file://$MODULE_DIR$/../sn-ios-sdk" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../sn-ios-ui-sdk">
+      <sourceFolder url="file://$MODULE_DIR$/../sn-ios-ui-sdk" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/SNReference-f39a479a/Build/Products/SonicX-Debug-iphonesimulator/SonicX Debug.app">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/SNReference-f39a479a/Build/Products/SonicX-Debug-iphonesimulator/SonicX Debug.app" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/SNReference-f39a479a/Build/Products/SonicX-Debug-iphonesimulator/SonicX.app">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/SNReference-f39a479a/Build/Products/SonicX-Debug-iphonesimulator/SonicX.app" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+

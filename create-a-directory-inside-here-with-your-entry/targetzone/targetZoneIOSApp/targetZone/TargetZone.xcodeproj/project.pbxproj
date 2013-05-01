@@ -1,0 +1,1083 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BBEBB8F1730565600F4DCFB /* sonicModel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3BBEBB8D1730565600F4DCFB /* sonicModel.bundle */; };
+		3BBEBBF71730698700F4DCFB /* SonicUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBEBBF51730698700F4DCFB /* SonicUI.framework */; };
+		3BBFF55C1729AE3C007379FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8448B21475727C00305ACC /* main.m */; };
+		3BBFF55D1729AE3C007379FC /* SNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8448B61475727C00305ACC /* SNAppDelegate.m */; };
+		3BBFF55E1729AE3C007379FC /* SNDebugManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1E06B147D494100FF584E /* SNDebugManager.m */; };
+		3BBFF55F1729AE3C007379FC /* SNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1E06B147D494100FF5853 /* SNViewController.m */; };
+		3BBFF5611729AE3C007379FC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070C4CE7170B564E00C5DE87 /* CoreBluetooth.framework */; };
+		3BBFF5621729AE3C007379FC /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07752D7E170B122D00692260 /* PassKit.framework */; };
+		3BBFF5631729AE3C007379FC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59771351704C2B900F75B83 /* StoreKit.framework */; };
+		3BBFF5641729AE3C007379FC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59771311704C26800F75B83 /* AdSupport.framework */; };
+		3BBFF5661729AE3C007379FC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FD067F164B1EEC0094C797 /* CoreData.framework */; };
+		3BBFF5671729AE3C007379FC /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D01B9A15A4ADFA002E6500 /* libicucore.dylib */; };
+		3BBFF5681729AE3C007379FC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B02F4714C479D8007A7974 /* MobileCoreServices.framework */; };
+		3BBFF5691729AE3C007379FC /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CEEB6114F01553002DDD94 /* Twitter.framework */; };
+		3BBFF56A1729AE3C007379FC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B02F4114C4792F007A7974 /* libz.dylib */; };
+		3BBFF56B1729AE3C007379FC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B02F4514C479B3007A7974 /* SystemConfiguration.framework */; };
+		3BBFF56C1729AE3C007379FC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B02F4314C4798C007A7974 /* CFNetwork.framework */; };
+		3BBFF56D1729AE3C007379FC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0590573614916E5600CFBE75 /* CoreLocation.framework */; };
+		3BBFF56E1729AE3C007379FC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D84494A1475823500305ACC /* MediaPlayer.framework */; };
+		3BBFF56F1729AE3C007379FC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8449481475821700305ACC /* Accelerate.framework */; };
+		3BBFF5701729AE3C007379FC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8449461475820800305ACC /* AVFoundation.framework */; };
+		3BBFF5711729AE3C007379FC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8449421475814700305ACC /* CoreAudio.framework */; };
+		3BBFF5721729AE3C007379FC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8449401475813E00305ACC /* AudioToolbox.framework */; };
+		3BBFF5731729AE3C007379FC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D84493E1475813400305ACC /* Security.framework */; };
+		3BBFF5741729AE3C007379FC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D84493C1475813100305ACC /* libsqlite3.dylib */; };
+		3BBFF5751729AE3C007379FC /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8449361475811600305ACC /* libstdc++.dylib */; };
+		3BBFF5761729AE3C007379FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8448A61475727C00305ACC /* UIKit.framework */; };
+		3BBFF5771729AE3C007379FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8448A81475727C00305ACC /* Foundation.framework */; };
+		3BBFF5781729AE3C007379FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8448AA1475727C00305ACC /* CoreGraphics.framework */; };
+		3BBFF5791729AE3C007379FC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074E0D901597888E00BAF36D /* MessageUI.framework */; };
+		3BBFF57A1729AE3C007379FC /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FBD12C16F7AF9900710AC6 /* HockeySDK.framework */; };
+		3BBFF57C1729AE3C007379FC /* sonicModel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5E98A91167A678B006EC2DA /* sonicModel.bundle */; };
+		3BBFF57D1729AE3C007379FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D8448AF1475727C00305ACC /* InfoPlist.strings */; };
+		3BBFF57E1729AE3C007379FC /* HelveticaNeueLTStd-BlkCn.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D84494E1475828D00305ACC /* HelveticaNeueLTStd-BlkCn.otf */; };
+		3BBFF57F1729AE3C007379FC /* HelveticaNeueLTStd-Cn.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D84494F1475828D00305ACC /* HelveticaNeueLTStd-Cn.otf */; };
+		3BBFF5801729AE3C007379FC /* HelveticaNeueLTStd-LtCn.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D8449501475828D00305ACC /* HelveticaNeueLTStd-LtCn.otf */; };
+		3BBFF5811729AE3C007379FC /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D844A121475865700305ACC /* MainWindow_iPad.xib */; };
+		3BBFF5821729AE3C007379FC /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D844A171475865700305ACC /* MainWindow_iPhone.xib */; };
+		3BBFF5831729AE3C007379FC /* demo_icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FB4CE6148D07B300924116 /* demo_icon_57.png */; };
+		3BBFF5841729AE3C007379FC /* demo_icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FB4CE7148D07B300924116 /* demo_icon_72.png */; };
+		3BBFF5851729AE3C007379FC /* demo_icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FB4CE8148D07B300924116 /* demo_icon_114.png */; };
+		3BBFF5861729AE3C007379FC /* demo_icon_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FB4CE9148D07B300924116 /* demo_icon_512.png */; };
+		3BBFF5871729AE3C007379FC /* Strings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0515BA9414ACCFB000C6000E /* Strings.strings */; };
+		3BBFF5881729AE3C007379FC /* sonic_bolt.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DF1E06B147D494100FF5806 /* sonic_bolt.png */; };
+		3BBFF5891729AE3C007379FC /* sonic_bolt_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 071C95F815ABB8CB001AF450 /* sonic_bolt_white.png */; };
+		3BBFF58A1729AE3C007379FC /* scifi.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3DF1E06B147D494100FF5857 /* scifi.caf */; };
+		3BBFF58B1729AE3C007379FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C99BBAA01655714100D313BF /* Default-568h@2x.png */; };
+		3BBFF58C1729AE3C007379FC /* scifi.aiff in Resources */ = {isa = PBXBuildFile; fileRef = C9F220511687D3D200966DA8 /* scifi.aiff */; };
+		3BBFF58D1729AE3C007379FC /* demo_icon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = C59F320816A0D20900E17BA5 /* demo_icon_1024.png */; };
+		3BBFF58E1729AE3C007379FC /* HockeySDK.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C5FBD12E16F7AF9900710AC6 /* HockeySDK.xcconfig */; };
+		3BBFF58F1729AE3C007379FC /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5FBD12F16F7AF9900710AC6 /* HockeySDKResources.bundle */; };
+		3BBFF5901729AE3C007379FC /* MPCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = C597713D1704C9CE00F75B83 /* MPCloseButtonX.png */; };
+		3BBFF5911729AE3C007379FC /* MPCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C597713E1704C9CE00F75B83 /* MPCloseButtonX@2x.png */; };
+		3BBFF5921729AE3C007379FC /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C597713F1704C9CE00F75B83 /* MRAID.bundle */; };
+		3BBFF5931729AE3C007379FC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4D60861715F6C300E6FA99 /* Default.png */; };
+		3BBFF5941729AE3C007379FC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4D60881715F6C900E6FA99 /* Default@2x.png */; };
+		3BBFF5951729AE3C007379FC /* demo_icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4D608A1715F83200E6FA99 /* demo_icon_57.png */; };
+		3BBFF5961729AE3C007379FC /* demo_icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B4D608C1715F83B00E6FA99 /* demo_icon_114.png */; };
+		3BBFF5971729AE3C007379FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BEEC47B171F0D1200A0CFDF /* InfoPlist.strings */; };
+		3BBFF5981729AE3C007379FC /* sonicModel-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BEEC47D171F0D1200A0CFDF /* sonicModel-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BBFF5581729AE3C007379FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D8448991475727C00305ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5E98A90167A678B006EC2DA;
+			remoteInfo = sonicModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0515BA9414ACCFB000C6000E /* Strings.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Strings.strings; sourceTree = "<group>"; };
+		0590573614916E5600CFBE75 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0590573814916E6A00CFBE75 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		070C4CE7170B564E00C5DE87 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		071C95F815ABB8CB001AF450 /* sonic_bolt_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sonic_bolt_white.png; sourceTree = "<group>"; };
+		074E0D901597888E00BAF36D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		07752D7E170B122D00692260 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		07B02F4114C4792F007A7974 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		07B02F4314C4798C007A7974 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		07B02F4514C479B3007A7974 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		07B02F4714C479D8007A7974 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		07CEEB6114F01553002DDD94 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		07D01B9A15A4ADFA002E6500 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		07FB4CE6148D07B300924116 /* demo_icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_icon_57.png; sourceTree = "<group>"; };
+		07FB4CE7148D07B300924116 /* demo_icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_icon_72.png; sourceTree = "<group>"; };
+		07FB4CE8148D07B300924116 /* demo_icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_icon_114.png; sourceTree = "<group>"; };
+		07FB4CE9148D07B300924116 /* demo_icon_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_icon_512.png; sourceTree = "<group>"; };
+		3B4D60861715F6C300E6FA99 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3B4D60881715F6C900E6FA99 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3B4D608A1715F83200E6FA99 /* demo_icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_icon_57.png; sourceTree = "<group>"; };
+		3B4D608C1715F83B00E6FA99 /* demo_icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_icon_114.png; sourceTree = "<group>"; };
+		3BBEBB8D1730565600F4DCFB /* sonicModel.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = sonicModel.bundle; sourceTree = "<group>"; };
+		3BBEBBF51730698700F4DCFB /* SonicUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SonicUI.framework; sourceTree = "<group>"; };
+		3BBFF59F1729AE3C007379FC /* SonicX copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SonicX copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBFF5A01729AE3C007379FC /* SonicX copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SonicX copy-Info.plist"; path = "/Users/alex2/Development/sonic_notify/sn-ios/sonicx/SonicX copy-Info.plist"; sourceTree = "<absolute>"; };
+		3BEEC47C171F0D1200A0CFDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BEEC47D171F0D1200A0CFDF /* sonicModel-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "sonicModel-Info.plist"; sourceTree = "<group>"; };
+		3BEEC47E171F0D1200A0CFDF /* sonicModel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sonicModel-Prefix.pch"; sourceTree = "<group>"; };
+		3D8448A61475727C00305ACC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D8448A81475727C00305ACC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D8448AA1475727C00305ACC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D8448B01475727C00305ACC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D8448B21475727C00305ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		3D8448B41475727C00305ACC /* SNReference-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SNReference-Prefix.pch"; sourceTree = "<group>"; };
+		3D8448B51475727C00305ACC /* SNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNAppDelegate.h; sourceTree = "<group>"; };
+		3D8448B61475727C00305ACC /* SNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNAppDelegate.m; sourceTree = "<group>"; };
+		3D8449361475811600305ACC /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		3D84493C1475813100305ACC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3D84493E1475813400305ACC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3D8449401475813E00305ACC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3D8449421475814700305ACC /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		3D8449461475820800305ACC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3D8449481475821700305ACC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3D84494A1475823500305ACC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3D84494E1475828D00305ACC /* HelveticaNeueLTStd-BlkCn.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeueLTStd-BlkCn.otf"; sourceTree = "<group>"; };
+		3D84494F1475828D00305ACC /* HelveticaNeueLTStd-Cn.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeueLTStd-Cn.otf"; sourceTree = "<group>"; };
+		3D8449501475828D00305ACC /* HelveticaNeueLTStd-LtCn.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeueLTStd-LtCn.otf"; sourceTree = "<group>"; };
+		3D8449561475828D00305ACC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3D8449571475828D00305ACC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3D844A131475865700305ACC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		3D844A181475865700305ACC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		3DF1E06B147D494100FF5806 /* sonic_bolt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sonic_bolt.png; sourceTree = "<group>"; };
+		3DF1E06B147D494100FF584E /* SNDebugManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNDebugManager.m; sourceTree = "<group>"; };
+		3DF1E06B147D494100FF5851 /* SNDebugManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNDebugManager.h; sourceTree = "<group>"; };
+		3DF1E06B147D494100FF5852 /* SNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNViewController.h; sourceTree = "<group>"; };
+		3DF1E06B147D494100FF5853 /* SNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNViewController.m; sourceTree = "<group>"; };
+		3DF1E06B147D494100FF5857 /* scifi.caf */ = {isa = PBXFileReference; lastKnownFileType = file.caf; path = scifi.caf; sourceTree = "<group>"; };
+		C59771311704C26800F75B83 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C59771351704C2B900F75B83 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C597713D1704C9CE00F75B83 /* MPCloseButtonX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseButtonX.png; sourceTree = "<group>"; };
+		C597713E1704C9CE00F75B83 /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@2x.png"; sourceTree = "<group>"; };
+		C597713F1704C9CE00F75B83 /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MRAID.bundle; sourceTree = "<group>"; };
+		C59F320816A0D20900E17BA5 /* demo_icon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_icon_1024.png; sourceTree = "<group>"; };
+		C5E98A8A167A66F1006EC2DA /* SonicDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SonicDataModel.xcdatamodel; sourceTree = "<group>"; };
+		C5E98A91167A678B006EC2DA /* sonicModel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sonicModel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E98A95167A678B006EC2DA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C5E98A96167A678B006EC2DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C5E98A97167A678B006EC2DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5FBD12C16F7AF9900710AC6 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
+		C5FBD12E16F7AF9900710AC6 /* HockeySDK.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = HockeySDK.xcconfig; sourceTree = "<group>"; };
+		C5FBD12F16F7AF9900710AC6 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
+		C5FD067F164B1EEC0094C797 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C99BBAA01655714100D313BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C9F220511687D3D200966DA8 /* scifi.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = scifi.aiff; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BBFF5601729AE3C007379FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBFF5611729AE3C007379FC /* CoreBluetooth.framework in Frameworks */,
+				3BBFF5621729AE3C007379FC /* PassKit.framework in Frameworks */,
+				3BBFF5631729AE3C007379FC /* StoreKit.framework in Frameworks */,
+				3BBFF5641729AE3C007379FC /* AdSupport.framework in Frameworks */,
+				3BBFF5661729AE3C007379FC /* CoreData.framework in Frameworks */,
+				3BBFF5671729AE3C007379FC /* libicucore.dylib in Frameworks */,
+				3BBFF5681729AE3C007379FC /* MobileCoreServices.framework in Frameworks */,
+				3BBFF5691729AE3C007379FC /* Twitter.framework in Frameworks */,
+				3BBFF56A1729AE3C007379FC /* libz.dylib in Frameworks */,
+				3BBFF56B1729AE3C007379FC /* SystemConfiguration.framework in Frameworks */,
+				3BBFF56C1729AE3C007379FC /* CFNetwork.framework in Frameworks */,
+				3BBFF56D1729AE3C007379FC /* CoreLocation.framework in Frameworks */,
+				3BBFF56E1729AE3C007379FC /* MediaPlayer.framework in Frameworks */,
+				3BBFF56F1729AE3C007379FC /* Accelerate.framework in Frameworks */,
+				3BBFF5701729AE3C007379FC /* AVFoundation.framework in Frameworks */,
+				3BBFF5711729AE3C007379FC /* CoreAudio.framework in Frameworks */,
+				3BBFF5721729AE3C007379FC /* AudioToolbox.framework in Frameworks */,
+				3BBFF5731729AE3C007379FC /* Security.framework in Frameworks */,
+				3BBFF5741729AE3C007379FC /* libsqlite3.dylib in Frameworks */,
+				3BBFF5751729AE3C007379FC /* libstdc++.dylib in Frameworks */,
+				3BBFF5761729AE3C007379FC /* UIKit.framework in Frameworks */,
+				3BBFF5771729AE3C007379FC /* Foundation.framework in Frameworks */,
+				3BBFF5781729AE3C007379FC /* CoreGraphics.framework in Frameworks */,
+				3BBFF5791729AE3C007379FC /* MessageUI.framework in Frameworks */,
+				3BBFF57A1729AE3C007379FC /* HockeySDK.framework in Frameworks */,
+				3BBEBBF71730698700F4DCFB /* SonicUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E98A8E167A678B006EC2DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BEEC47A171F0D1200A0CFDF /* sonicModel */ = {
+			isa = PBXGroup;
+			children = (
+				3BEEC47B171F0D1200A0CFDF /* InfoPlist.strings */,
+				3BEEC47D171F0D1200A0CFDF /* sonicModel-Info.plist */,
+				3BEEC47E171F0D1200A0CFDF /* sonicModel-Prefix.pch */,
+			);
+			name = sonicModel;
+			path = "../../../../../Downloads/sn-ios-4.40/sonicx/sonicModel";
+			sourceTree = "<group>";
+		};
+		3D8448971475727C00305ACC = {
+			isa = PBXGroup;
+			children = (
+				3BBEBBF51730698700F4DCFB /* SonicUI.framework */,
+				3BBEBB8D1730565600F4DCFB /* sonicModel.bundle */,
+				3B4D608C1715F83B00E6FA99 /* demo_icon_114.png */,
+				3B4D608A1715F83200E6FA99 /* demo_icon_57.png */,
+				3B4D60881715F6C900E6FA99 /* Default@2x.png */,
+				3B4D60861715F6C300E6FA99 /* Default.png */,
+				070C4CE7170B564E00C5DE87 /* CoreBluetooth.framework */,
+				C99BBAA01655714100D313BF /* Default-568h@2x.png */,
+				3D8448AC1475727C00305ACC /* TargetZone */,
+				3D8448A51475727C00305ACC /* Frameworks */,
+				3D8448A31475727C00305ACC /* Products */,
+				3BBFF5A01729AE3C007379FC /* SonicX copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		3D8448A31475727C00305ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5E98A91167A678B006EC2DA /* sonicModel.bundle */,
+				3BBFF59F1729AE3C007379FC /* SonicX copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D8448A51475727C00305ACC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07D01B9A15A4ADFA002E6500 /* libicucore.dylib */,
+				07752D7E170B122D00692260 /* PassKit.framework */,
+				C59771351704C2B900F75B83 /* StoreKit.framework */,
+				C59771311704C26800F75B83 /* AdSupport.framework */,
+				C5FD067F164B1EEC0094C797 /* CoreData.framework */,
+				074E0D901597888E00BAF36D /* MessageUI.framework */,
+				07CEEB6114F01553002DDD94 /* Twitter.framework */,
+				07B02F4714C479D8007A7974 /* MobileCoreServices.framework */,
+				07B02F4514C479B3007A7974 /* SystemConfiguration.framework */,
+				07B02F4314C4798C007A7974 /* CFNetwork.framework */,
+				07B02F4114C4792F007A7974 /* libz.dylib */,
+				0590573614916E5600CFBE75 /* CoreLocation.framework */,
+				0590573814916E6A00CFBE75 /* CoreLocation.framework */,
+				3D84494A1475823500305ACC /* MediaPlayer.framework */,
+				3D8449481475821700305ACC /* Accelerate.framework */,
+				3D8449461475820800305ACC /* AVFoundation.framework */,
+				3D8449421475814700305ACC /* CoreAudio.framework */,
+				3D8449401475813E00305ACC /* AudioToolbox.framework */,
+				3D84493E1475813400305ACC /* Security.framework */,
+				3D84493C1475813100305ACC /* libsqlite3.dylib */,
+				3D8449361475811600305ACC /* libstdc++.dylib */,
+				3D8448A61475727C00305ACC /* UIKit.framework */,
+				3D8448A81475727C00305ACC /* Foundation.framework */,
+				3D8448AA1475727C00305ACC /* CoreGraphics.framework */,
+				C5E98A94167A678B006EC2DA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D8448AC1475727C00305ACC /* TargetZone */ = {
+			isa = PBXGroup;
+			children = (
+				3BEEC47A171F0D1200A0CFDF /* sonicModel */,
+				3D844A111475865700305ACC /* iPad */,
+				3D844A161475865700305ACC /* iPhone */,
+				3D844A2A1475945400305ACC /* Vendors */,
+				3D84494C1475828D00305ACC /* Resources */,
+				3D8448AD1475727C00305ACC /* Supporting Files */,
+				3DF1E06B147D494100FF5851 /* SNDebugManager.h */,
+				3DF1E06B147D494100FF584E /* SNDebugManager.m */,
+				3D8448B51475727C00305ACC /* SNAppDelegate.h */,
+				3D8448B61475727C00305ACC /* SNAppDelegate.m */,
+				3DF1E06B147D494100FF5852 /* SNViewController.h */,
+				3DF1E06B147D494100FF5853 /* SNViewController.m */,
+			);
+			name = TargetZone;
+			path = SNReference;
+			sourceTree = "<group>";
+		};
+		3D8448AD1475727C00305ACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D8448AF1475727C00305ACC /* InfoPlist.strings */,
+				3D8448B21475727C00305ACC /* main.m */,
+				3D8448B41475727C00305ACC /* SNReference-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D84494C1475828D00305ACC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C597713D1704C9CE00F75B83 /* MPCloseButtonX.png */,
+				C597713E1704C9CE00F75B83 /* MPCloseButtonX@2x.png */,
+				C597713F1704C9CE00F75B83 /* MRAID.bundle */,
+				C5E98A8C167A66FE006EC2DA /* Models */,
+				3D84494D1475828D00305ACC /* Fonts */,
+				3D8449511475828D00305ACC /* Images */,
+				0515BA9414ACCFB000C6000E /* Strings.strings */,
+				3DF1E06B147D494100FF5856 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3D84494D1475828D00305ACC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3D84494E1475828D00305ACC /* HelveticaNeueLTStd-BlkCn.otf */,
+				3D84494F1475828D00305ACC /* HelveticaNeueLTStd-Cn.otf */,
+				3D8449501475828D00305ACC /* HelveticaNeueLTStd-LtCn.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3D8449511475828D00305ACC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				071C95F815ABB8CB001AF450 /* sonic_bolt_white.png */,
+				3DF1E06B147D494100FF5806 /* sonic_bolt.png */,
+				3D8449541475828D00305ACC /* default */,
+				3D8449581475828D00305ACC /* icons */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3D8449541475828D00305ACC /* default */ = {
+			isa = PBXGroup;
+			children = (
+				3D8449561475828D00305ACC /* Default.png */,
+				3D8449571475828D00305ACC /* Default@2x.png */,
+			);
+			path = default;
+			sourceTree = "<group>";
+		};
+		3D8449581475828D00305ACC /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				07FB4CE6148D07B300924116 /* demo_icon_57.png */,
+				07FB4CE7148D07B300924116 /* demo_icon_72.png */,
+				07FB4CE8148D07B300924116 /* demo_icon_114.png */,
+				07FB4CE9148D07B300924116 /* demo_icon_512.png */,
+				C59F320816A0D20900E17BA5 /* demo_icon_1024.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		3D844A111475865700305ACC /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				3D844A121475865700305ACC /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			path = Classes/iPad;
+			sourceTree = "<group>";
+		};
+		3D844A161475865700305ACC /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				3D844A171475865700305ACC /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			path = Classes/iPhone;
+			sourceTree = "<group>";
+		};
+		3D844A2A1475945400305ACC /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				C5FBD12B16F7AF9900710AC6 /* HockeySDK.embeddedframework */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		3DF1E06B147D494100FF5856 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C9F220511687D3D200966DA8 /* scifi.aiff */,
+				3DF1E06B147D494100FF5857 /* scifi.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		C5E98A8C167A66FE006EC2DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5E98A89167A66F1006EC2DA /* SonicDataModel.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C5E98A94167A678B006EC2DA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5E98A95167A678B006EC2DA /* AppKit.framework */,
+				C5E98A96167A678B006EC2DA /* CoreData.framework */,
+				C5E98A97167A678B006EC2DA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C5FBD12B16F7AF9900710AC6 /* HockeySDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				C5FBD12C16F7AF9900710AC6 /* HockeySDK.framework */,
+				C5FBD12D16F7AF9900710AC6 /* Resources */,
+			);
+			path = HockeySDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+		C5FBD12D16F7AF9900710AC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5FBD12E16F7AF9900710AC6 /* HockeySDK.xcconfig */,
+				C5FBD12F16F7AF9900710AC6 /* HockeySDKResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BBFF5561729AE3C007379FC /* Target Zone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BBFF59A1729AE3C007379FC /* Build configuration list for PBXNativeTarget "Target Zone" */;
+			buildPhases = (
+				3BBFF55B1729AE3C007379FC /* Sources */,
+				3BBFF5601729AE3C007379FC /* Frameworks */,
+				3BBFF57B1729AE3C007379FC /* Resources */,
+				3BBFF5991729AE3C007379FC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BBFF5571729AE3C007379FC /* PBXTargetDependency */,
+			);
+			name = "Target Zone";
+			productName = SNReference;
+			productReference = 3BBFF59F1729AE3C007379FC /* SonicX copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5E98A90167A678B006EC2DA /* sonicModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5E98A9F167A678B006EC2DA /* Build configuration list for PBXNativeTarget "sonicModel" */;
+			buildPhases = (
+				C5E98A8D167A678B006EC2DA /* Sources */,
+				C5E98A8E167A678B006EC2DA /* Frameworks */,
+				C5E98A8F167A678B006EC2DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sonicModel;
+			productName = sonicModel;
+			productReference = C5E98A91167A678B006EC2DA /* sonicModel.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D8448991475727C00305ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sonic Notify, Inc";
+			};
+			buildConfigurationList = 3D84489C1475727C00305ACC /* Build configuration list for PBXProject "TargetZone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 3D8448971475727C00305ACC;
+			productRefGroup = 3D8448A31475727C00305ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5E98A90167A678B006EC2DA /* sonicModel */,
+				3BBFF5561729AE3C007379FC /* Target Zone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BBFF57B1729AE3C007379FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBFF57C1729AE3C007379FC /* sonicModel.bundle in Resources */,
+				3BBFF57D1729AE3C007379FC /* InfoPlist.strings in Resources */,
+				3BBFF57E1729AE3C007379FC /* HelveticaNeueLTStd-BlkCn.otf in Resources */,
+				3BBFF57F1729AE3C007379FC /* HelveticaNeueLTStd-Cn.otf in Resources */,
+				3BBFF5801729AE3C007379FC /* HelveticaNeueLTStd-LtCn.otf in Resources */,
+				3BBFF5811729AE3C007379FC /* MainWindow_iPad.xib in Resources */,
+				3BBFF5821729AE3C007379FC /* MainWindow_iPhone.xib in Resources */,
+				3BBFF5831729AE3C007379FC /* demo_icon_57.png in Resources */,
+				3BBFF5841729AE3C007379FC /* demo_icon_72.png in Resources */,
+				3BBFF5851729AE3C007379FC /* demo_icon_114.png in Resources */,
+				3BBFF5861729AE3C007379FC /* demo_icon_512.png in Resources */,
+				3BBFF5871729AE3C007379FC /* Strings.strings in Resources */,
+				3BBFF5881729AE3C007379FC /* sonic_bolt.png in Resources */,
+				3BBFF5891729AE3C007379FC /* sonic_bolt_white.png in Resources */,
+				3BBFF58A1729AE3C007379FC /* scifi.caf in Resources */,
+				3BBFF58B1729AE3C007379FC /* Default-568h@2x.png in Resources */,
+				3BBFF58C1729AE3C007379FC /* scifi.aiff in Resources */,
+				3BBFF58D1729AE3C007379FC /* demo_icon_1024.png in Resources */,
+				3BBFF58E1729AE3C007379FC /* HockeySDK.xcconfig in Resources */,
+				3BBFF58F1729AE3C007379FC /* HockeySDKResources.bundle in Resources */,
+				3BBFF5901729AE3C007379FC /* MPCloseButtonX.png in Resources */,
+				3BBFF5911729AE3C007379FC /* MPCloseButtonX@2x.png in Resources */,
+				3BBFF5921729AE3C007379FC /* MRAID.bundle in Resources */,
+				3BBFF5931729AE3C007379FC /* Default.png in Resources */,
+				3BBFF5941729AE3C007379FC /* Default@2x.png in Resources */,
+				3BBFF5951729AE3C007379FC /* demo_icon_57.png in Resources */,
+				3BBFF5961729AE3C007379FC /* demo_icon_114.png in Resources */,
+				3BBFF5971729AE3C007379FC /* InfoPlist.strings in Resources */,
+				3BBFF5981729AE3C007379FC /* sonicModel-Info.plist in Resources */,
+				3BBEBB8F1730565600F4DCFB /* sonicModel.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E98A8F167A678B006EC2DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BBFF5991729AE3C007379FC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"    ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BBFF55B1729AE3C007379FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBFF55C1729AE3C007379FC /* main.m in Sources */,
+				3BBFF55D1729AE3C007379FC /* SNAppDelegate.m in Sources */,
+				3BBFF55E1729AE3C007379FC /* SNDebugManager.m in Sources */,
+				3BBFF55F1729AE3C007379FC /* SNViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E98A8D167A678B006EC2DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BBFF5571729AE3C007379FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5E98A90167A678B006EC2DA /* sonicModel */;
+			targetProxy = 3BBFF5581729AE3C007379FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BEEC47B171F0D1200A0CFDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BEEC47C171F0D1200A0CFDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D8448AF1475727C00305ACC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D8448B01475727C00305ACC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D844A121475865700305ACC /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D844A131475865700305ACC /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		3D844A171475865700305ACC /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D844A181475865700305ACC /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07FB4CE0148D020900924116 /* SonicX-AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FBD12E16F7AF9900710AC6 /* HockeySDK.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv7,
+				);
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../sdk/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-all_load";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../sdk/core/** ../sdk/ui/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "SonicX-AppStore";
+		};
+		3BBFF59B1729AE3C007379FC /* SonicX-Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FBD12E16F7AF9900710AC6 /* HockeySDK.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SNReference/Vendors/HockeySDK.embeddedframework\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNReference/SNReference-Prefix.pch";
+				INFOPLIST_FILE = "SonicX copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SNReference/Vendors/TestFlightSDK1.0\"",
+				);
+				PRODUCT_NAME = "SonicX copy";
+				VALID_ARCHS = "armv7 armv6";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "SonicX-Debug";
+		};
+		3BBFF59C1729AE3C007379FC /* SonicX-Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FBD12E16F7AF9900710AC6 /* HockeySDK.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SNReference/Vendors/HockeySDK.embeddedframework\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNReference/SNReference-Prefix.pch";
+				INFOPLIST_FILE = "SonicX copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SNReference/Vendors/TestFlightSDK1.0\"",
+				);
+				PRODUCT_NAME = "SonicX copy";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALID_ARCHS = "armv7 armv6";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "SonicX-Release";
+		};
+		3BBFF59D1729AE3C007379FC /* SonicX-AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FBD12E16F7AF9900710AC6 /* HockeySDK.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SNReference/Vendors/HockeySDK.embeddedframework\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNReference/SNReference-Prefix.pch";
+				INFOPLIST_FILE = "SonicX copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SNReference/Vendors/TestFlightSDK1.0\"",
+				);
+				PRODUCT_NAME = "SonicX copy";
+				VALID_ARCHS = "armv7 armv6";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "SonicX-AppStore";
+		};
+		3BBFF59E1729AE3C007379FC /* SonicX-Enterprise */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FBD12E16F7AF9900710AC6 /* HockeySDK.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SNReference/Vendors/HockeySDK.embeddedframework\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNReference/SNReference-Prefix.pch";
+				INFOPLIST_FILE = "SonicX copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SNReference/Vendors/TestFlightSDK1.0\"",
+				);
+				PRODUCT_NAME = "SonicX copy";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALID_ARCHS = "armv7 armv6";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "SonicX-Enterprise";
+		};
+		3D8448B81475727C00305ACC /* SonicX-Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FBD12E16F7AF9900710AC6 /* HockeySDK.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv7,
+				);
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../sdk/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-all_load";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../sdk/core/** ../sdk/ui/**";
+			};
+			name = "SonicX-Debug";
+		};
+		3D8448B91475727C00305ACC /* SonicX-Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FBD12E16F7AF9900710AC6 /* HockeySDK.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv7,
+				);
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../sdk/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-all_load";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../sdk/core/** ../sdk/ui/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "SonicX-Release";
+		};
+		3DF1E06A147D494100FF5805 /* SonicX-Enterprise */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FBD12E16F7AF9900710AC6 /* HockeySDK.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv7,
+				);
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sonic Notify, LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sonic Notify, LLC";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../sdk/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-all_load";
+				PROVISIONING_PROFILE = "0288E057-EC6C-496D-89F0-18B1692D88D8";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0288E057-EC6C-496D-89F0-18B1692D88D8";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../sdk/core/** ../sdk/ui/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "SonicX-Enterprise";
+		};
+		C5E98AA0167A678B006EC2DA /* SonicX-Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sonicModel/sonicModel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "sonicModel/sonicModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = "SonicX-Debug";
+		};
+		C5E98AA1167A678B006EC2DA /* SonicX-Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sonicModel/sonicModel-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "sonicModel/sonicModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = "SonicX-Release";
+		};
+		C5E98AA2167A678B006EC2DA /* SonicX-AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sonicModel/sonicModel-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "sonicModel/sonicModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = "SonicX-AppStore";
+		};
+		C5E98AA3167A678B006EC2DA /* SonicX-Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sonicModel/sonicModel-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "sonicModel/sonicModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = "SonicX-Enterprise";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BBFF59A1729AE3C007379FC /* Build configuration list for PBXNativeTarget "Target Zone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBFF59B1729AE3C007379FC /* SonicX-Debug */,
+				3BBFF59C1729AE3C007379FC /* SonicX-Release */,
+				3BBFF59D1729AE3C007379FC /* SonicX-AppStore */,
+				3BBFF59E1729AE3C007379FC /* SonicX-Enterprise */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "SonicX-Release";
+		};
+		3D84489C1475727C00305ACC /* Build configuration list for PBXProject "TargetZone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8448B81475727C00305ACC /* SonicX-Debug */,
+				3D8448B91475727C00305ACC /* SonicX-Release */,
+				07FB4CE0148D020900924116 /* SonicX-AppStore */,
+				3DF1E06A147D494100FF5805 /* SonicX-Enterprise */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "SonicX-Release";
+		};
+		C5E98A9F167A678B006EC2DA /* Build configuration list for PBXNativeTarget "sonicModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E98AA0167A678B006EC2DA /* SonicX-Debug */,
+				C5E98AA1167A678B006EC2DA /* SonicX-Release */,
+				C5E98AA2167A678B006EC2DA /* SonicX-AppStore */,
+				C5E98AA3167A678B006EC2DA /* SonicX-Enterprise */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "SonicX-Release";
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C5E98A89167A66F1006EC2DA /* SonicDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5E98A8A167A66F1006EC2DA /* SonicDataModel.xcdatamodel */,
+			);
+			currentVersion = C5E98A8A167A66F1006EC2DA /* SonicDataModel.xcdatamodel */;
+			name = SonicDataModel.xcdatamodeld;
+			path = ../../../sdk/core/sonicnotify/SonicDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D8448991475727C00305ACC /* Project object */;
+}
