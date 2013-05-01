@@ -37,7 +37,7 @@ If the customer is more interested in _discovering_ related products that may be
 
 If the customer wants to have that "Magic 8 Ball" experience, she'll just give her touch-sensitive mobile device a quick shake, and the crosshair will randomize the neighbors, reorient and recenter automatically, once again keeping the original closest match in sight.
 
-This mobile app and UI showcases products, and similar items, in a novel, compact way, that also makes the experience engaging for the customer—a hallmark of the Target brand experience. Crosshair uses the dominant visual conceit of Target's corporate identity—the target—as a feature. Moreover, the interface—if executed as imagined here, and which is based on the classic quadrant matrix—presents some unique ways to present products across different dimensions which can be customized by Target, or even the customers themselves.
+This mobile app and UI showcases products, and similar items, in a novel, compact way that also makes the experience engaging for the customer—a hallmark of the Target brand experience. Crosshair uses the dominant visual conceit of Target's corporate identity—the target—as a feature. Moreover, the interface—if executed as imagined here, and which is based on the classic quadrant matrix—presents some unique ways to present products across different dimensions, which can be customized by Target, or even the customers themselves.
 
 Built-in "list" functionality will allow customers to replay, save, and share Crosshair results as list with other family members, friends, bridal registry invitees, baby shower members, etc.
 
