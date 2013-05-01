@@ -36,7 +36,7 @@ Further scrolling up will reveal a list of all the products used in this creatio
 ###*CHANGING PERSPECTIVE* - The Navigation Drawer
 ![Navigation Drawer](target_app_screens_101-05.jpg)
 
-In the upper left, pop open the navigation drawer have quick access to Explore Filter options as well as User Profile and Settings.  Prominently feature at the top is quick access to the “Create” button that launches the photo based create process.
+In the upper left, pop open the navigation drawer have quick access refining your Explore Feed, as well as User Profile and Settings.  Prominently featured at the bottom of the drawer, is the “Create” button that launches the photo based create process.
 
 *****
 
@@ -55,7 +55,7 @@ Once the photo is taken, the creator identify’s products in the photo by tappi
 *****
 
 ###TAGGING -  Products with Target SKU’s
-![](target_app_screens_101-07.jpg)
+![](target_app_screens_101-08.jpg)
 
 The creator then scans product barcodes or looking up products in a hierarchical structure.  By identifying these relationships, the Explore modes can offer inspirational product combinations, created by The League users. 
 
