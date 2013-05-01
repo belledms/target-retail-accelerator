@@ -12,11 +12,6 @@ _________________________________________________________
 /Video
 * Video of me describing app
 
-Target School Assistant.docx
-* Description (Word version)
-
-Target School Assistant.docx
-* Description(Adobe version)
-
-TargetAccel.bmml
-* Balsamiq source - Please ignore :)
+* Target School Assistant.docx -- Description (Word version)
+* Target School Assistant.docx -- Description(Adobe version)
+* TargetAccel.bmml - Balsamiq source - Please ignore :)
