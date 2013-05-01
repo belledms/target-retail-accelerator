@@ -1,4 +1,4 @@
-# School Assistant
+# Target School Assistant
 
 Erik Kerber
 
