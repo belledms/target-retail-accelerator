@@ -11,3 +11,11 @@
 	*BullsEye_Overview.pdf: This is a quick 2-pager that contains a short description of the problem we are solving and the value that BullsEye provides Target and the consumer. It also walks you through the expected user flow.
 	
 	*Readme.md: This is what you are reading, it contains words.
+
+#Created by:
+
+Tim Riley triley@kou.pn
+Ben Walker bwalker@kou.pn
+Liz Valdez lvaldez@kou.pn
+Eric Moore emoore@kou.pn
+Stephen Bradley sbradley@kou.pn
