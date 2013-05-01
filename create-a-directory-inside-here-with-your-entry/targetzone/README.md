@@ -5,11 +5,11 @@
 ## What is Sonic Notify?
 [Sonic Notify](http://www.sonicnotify.com) is a company that provides a mobile SDK and platform for delivering content through inaudible sound. The TargetZone app uses Sonic Notify beacons arranged through a store to deliver content to the consumer durring their shopping trip. 
 
-<!-- This version of the embed code is no longer supported. Learn more: https://vimeo.com/help/faq/embedding --> <object width="500" height="208"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=64251629&amp;force_embed=1&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=64251629&amp;force_embed=1&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="500" height="208"></embed></object> <p><a href="http://vimeo.com/64251629">Website Video-HD 720p</a> from <a href="http://vimeo.com/sonicnotify">Sonic Notify Inc.</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://vimeo.com/64251629)
 
 Here is an example of a Sonic Notify Beacon. 
 
-![alt text](http://media.tumblr.com/9082cf5822a0b78a7fb414dcaab29438/tumblr_inline_mhk9nadOWo1qz4rgp.png "Sonic Notify Beacon")
+![alt text](http://sonic-content.s3.amazonaws.com/Screen%20Shot%202013-04-30%20at%208.52.49%20PM.png "Sonic Notify Beacon")
 
 ## The Team
 
