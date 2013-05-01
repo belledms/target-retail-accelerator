@@ -1,7 +1,7 @@
 
 # Style Board by [Hado Labs](http://hadolabs.com)
 
-* Matt Branthwaite, Software Engineer  |  [matt@hadolabs.com](mailto:matt@hadolabs.com)  |  425.891.7124
+* Matt Branthwaite, Software Engineer  |  [matt@hadolabs.com](mailto:matt@hadolabs.com)
 * Catherine Hubert, Creative Director  |  [catherine@hadolabs.com](mailto:catherine@hadolabs.com)  |  206.419.0645	
 
 ## Overview
