@@ -4,8 +4,8 @@ Live a designed life, with Target!
 
 ## Team Member
 
-* Potsie Rivera
-* Libin Pan
+* Potsie Rivera (thepotsie@gmail.com)
+* Libin Pan (me@libinpan.com)
 
 ## App Proposal
 
