@@ -11,7 +11,6 @@
 		3BBEBBF71730698700F4DCFB /* SonicUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBEBBF51730698700F4DCFB /* SonicUI.framework */; };
 		3BBFF55C1729AE3C007379FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8448B21475727C00305ACC /* main.m */; };
 		3BBFF55D1729AE3C007379FC /* SNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8448B61475727C00305ACC /* SNAppDelegate.m */; };
-		3BBFF55E1729AE3C007379FC /* SNDebugManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1E06B147D494100FF584E /* SNDebugManager.m */; };
 		3BBFF55F1729AE3C007379FC /* SNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1E06B147D494100FF5853 /* SNViewController.m */; };
 		3BBFF5611729AE3C007379FC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070C4CE7170B564E00C5DE87 /* CoreBluetooth.framework */; };
 		3BBFF5621729AE3C007379FC /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07752D7E170B122D00692260 /* PassKit.framework */; };
@@ -132,8 +131,6 @@
 		3D844A131475865700305ACC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		3D844A181475865700305ACC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
 		3DF1E06B147D494100FF5806 /* sonic_bolt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sonic_bolt.png; sourceTree = "<group>"; };
-		3DF1E06B147D494100FF584E /* SNDebugManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNDebugManager.m; sourceTree = "<group>"; };
-		3DF1E06B147D494100FF5851 /* SNDebugManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNDebugManager.h; sourceTree = "<group>"; };
 		3DF1E06B147D494100FF5852 /* SNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNViewController.h; sourceTree = "<group>"; };
 		3DF1E06B147D494100FF5853 /* SNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNViewController.m; sourceTree = "<group>"; };
 		3DF1E06B147D494100FF5857 /* scifi.caf */ = {isa = PBXFileReference; lastKnownFileType = file.caf; path = scifi.caf; sourceTree = "<group>"; };
@@ -143,7 +140,6 @@
 		C597713E1704C9CE00F75B83 /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@2x.png"; sourceTree = "<group>"; };
 		C597713F1704C9CE00F75B83 /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MRAID.bundle; sourceTree = "<group>"; };
 		C59F320816A0D20900E17BA5 /* demo_icon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_icon_1024.png; sourceTree = "<group>"; };
-		C5E98A8A167A66F1006EC2DA /* SonicDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SonicDataModel.xcdatamodel; sourceTree = "<group>"; };
 		C5E98A91167A678B006EC2DA /* sonicModel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sonicModel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E98A95167A678B006EC2DA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		C5E98A96167A678B006EC2DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -279,8 +275,6 @@
 				3D844A2A1475945400305ACC /* Vendors */,
 				3D84494C1475828D00305ACC /* Resources */,
 				3D8448AD1475727C00305ACC /* Supporting Files */,
-				3DF1E06B147D494100FF5851 /* SNDebugManager.h */,
-				3DF1E06B147D494100FF584E /* SNDebugManager.m */,
 				3D8448B51475727C00305ACC /* SNAppDelegate.h */,
 				3D8448B61475727C00305ACC /* SNAppDelegate.m */,
 				3DF1E06B147D494100FF5852 /* SNViewController.h */,
@@ -306,7 +300,6 @@
 				C597713D1704C9CE00F75B83 /* MPCloseButtonX.png */,
 				C597713E1704C9CE00F75B83 /* MPCloseButtonX@2x.png */,
 				C597713F1704C9CE00F75B83 /* MRAID.bundle */,
-				C5E98A8C167A66FE006EC2DA /* Models */,
 				3D84494D1475828D00305ACC /* Fonts */,
 				3D8449511475828D00305ACC /* Images */,
 				0515BA9414ACCFB000C6000E /* Strings.strings */,
@@ -390,14 +383,6 @@
 				3DF1E06B147D494100FF5857 /* scifi.caf */,
 			);
 			path = Sounds;
-			sourceTree = "<group>";
-		};
-		C5E98A8C167A66FE006EC2DA /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				C5E98A89167A66F1006EC2DA /* SonicDataModel.xcdatamodeld */,
-			);
-			name = Models;
 			sourceTree = "<group>";
 		};
 		C5E98A94167A678B006EC2DA /* Other Frameworks */ = {
@@ -565,7 +550,6 @@
 			files = (
 				3BBFF55C1729AE3C007379FC /* main.m in Sources */,
 				3BBFF55D1729AE3C007379FC /* SNAppDelegate.m in Sources */,
-				3BBFF55E1729AE3C007379FC /* SNDebugManager.m in Sources */,
 				3BBFF55F1729AE3C007379FC /* SNViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1064,20 +1048,6 @@
 			defaultConfigurationName = "SonicX-Release";
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		C5E98A89167A66F1006EC2DA /* SonicDataModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				C5E98A8A167A66F1006EC2DA /* SonicDataModel.xcdatamodel */,
-			);
-			currentVersion = C5E98A8A167A66F1006EC2DA /* SonicDataModel.xcdatamodel */;
-			name = SonicDataModel.xcdatamodeld;
-			path = ../../../sdk/core/sonicnotify/SonicDataModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3D8448991475727C00305ACC /* Project object */;
 }

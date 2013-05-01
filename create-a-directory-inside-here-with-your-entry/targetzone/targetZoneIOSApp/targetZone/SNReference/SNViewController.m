@@ -40,13 +40,7 @@
 #else
     self.debugButton.hidden = YES;
 #endif
-    [NSTimer scheduledTimerWithTimeInterval:10.0
-                                     target:self
-                                   selector:@selector(reloadAdAlex)
-                                   userInfo:nil
-                                    repeats:YES];// TODO remove
-    //[self.adView loadCreativeFromURL:[NSURL URLWithString:@"http://10.0.1.114/~misaacs/ormma-read-only/WebTester/safari/ormma-test-ad-level-2.html"]];
-    //[self reloadAd:nil];
+
 }
 
 
@@ -79,20 +73,6 @@
     }
 }
 
-- (void)reloadAdAlex {
-    //
-    //
-    [[NSURLCache sharedURLCache] removeAllCachedResponses];
-    [[NSURLCache sharedURLCache] setDiskCapacity:0];
-    [[NSURLCache sharedURLCache] setMemoryCapacity:0];
-    if (self.adView.creativeUrl) {
-        NSURL * url = [self.adView.creativeUrl retain];
-        self.adView.creativeUrl = nil;
-        [self.adView loadCreativeFromURL:url];
-        [url release];
-    }
-    
-}
 
 - (IBAction)reloadAd:(id)sender {
     //
@@ -149,37 +129,9 @@
     [super dealloc];
 }
 
-- (void) alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-    if (buttonIndex == 1 && alertView.tag == 2) {
-        [[Sonic sharedInstance] reset];
-        NSString *appID = [alertView textFieldAtIndex:0].text;
-        [[NSUserDefaults standardUserDefaults] setObject:@"" forKey:@"sonicAccessKey"];
-        [[NSUserDefaults standardUserDefaults] setObject:@"" forKey:@"sonicSecretKey"];
-
-        [[SonicUI sharedInstance] initializeWithApplicationGUID:appID
-                                                    andDelegate:(id<SonicUIDelegate>)[[UIApplication sharedApplication] delegate]
-                                        andParentViewController: self];
-        [[NSUserDefaults standardUserDefaults] setObject:appID forKey:@"sonicAppID"];
-    } else if (buttonIndex == 1 && alertView.tag == 1) {
-        NSString *codeStr = [alertView textFieldAtIndex:0].text;
-        
-        NSNumberFormatter * f = [[[NSNumberFormatter alloc] init] autorelease];
-        [f setNumberStyle:NSNumberFormatterDecimalStyle];
-        NSNumber * code = [f numberFromString: codeStr];
-        
-        [[Sonic sharedInstance] simulateBeaconCode: [code unsignedIntValue]];
-  
-    }
-}
-
 - (UIViewController *)viewControllerForPresentingModalView{
     return self;
 
-}
-
-- (void)closeButtonPressed {
-    NSLog(@"Closed.");
 }
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {

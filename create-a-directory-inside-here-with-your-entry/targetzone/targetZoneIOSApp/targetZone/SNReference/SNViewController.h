@@ -19,7 +19,6 @@
 @property (nonatomic, retain) IBOutlet UIView * infoOverlayView;
 @property (nonatomic, retain) IBOutlet UIButton * debugButton;
 @property (nonatomic, retain) IBOutlet SonicAdView *adView;
-//@property (nonatomic, retain) IBOutlet UIWebView *adView;
 
 - (IBAction)reloadAd: (id) sender;
 - (IBAction)infoButtonPressed:(id)sender;
