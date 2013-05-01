@@ -67,3 +67,4 @@ The creator then scans product barcodes or looking up products in a hierarchical
 The final step for making a Creation is adding a brief description telling what it's all about.  The Creator can even add #hashtags to aid App users in finding similar Creations as they browse tags. Once done, simply tap "Share" to make the Creation visible to other League users.
 
 *****
+
