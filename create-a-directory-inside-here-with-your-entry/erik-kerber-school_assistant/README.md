@@ -1,6 +1,18 @@
 # School Assistant
 
-* You may also add a PDF or MS Word document to this directory.
-* Limit your description to no more than 2 pages.
-* Include name, email and phone number of Individual Contestant or Team Leader.
-* If Entry is on behalf of a Team, the names and email addresses of all team members.
+Erik Kerber
+erik.kerber@gmail.com
+@ErikKerber
+
+/Images
+* Single mockup image of web/mobile experience
+
+/Video
+* Video of me describing app
+
+Target School Assistant.docx
+* Description (Word version)
+
+Target School Assistant.docx
+* Description(Adobe version)
+
