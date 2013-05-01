@@ -12,5 +12,3 @@
 * Initial Match: _best match in the bullseye_: 6\_\_initialmatch\_mockup.png
 * Magic Shake Match: _alternate related match after shake gesture_: 7\_\_magicshakematch\_mockup.png
 * Product Detail: _pricing, availability, shopping_: 8\_\_productdetail\_mockup.png
-
-//
